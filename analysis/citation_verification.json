@@ -1,0 +1,5194 @@
+{
+  "summary": {
+    "network_checks": "attempted",
+    "citation_key_mentions": 669,
+    "unique_cited_keys": 281,
+    "bibliography_entries": 281,
+    "missing_keys": [],
+    "unused_keys": [],
+    "duplicate_keys": [],
+    "duplicate_titles": {},
+    "arxiv_entries": 221,
+    "arxiv_source_missing": [],
+    "arxiv_registry_unverified": [
+      "ai2024selfknowledge",
+      "angelopoulos2023ppi",
+      "ashery2025emergent",
+      "atil2025nondeterminism",
+      "bellibatlu2026judgesense",
+      "berglund2023outofcontext",
+      "bhandari2025evaluating",
+      "bianchi2024negotiation",
+      "chang2024behavior",
+      "chatterjee2024posix",
+      "chatzi2024ranking",
+      "chen2024premise",
+      "chen2025compact",
+      "cheng2023compost",
+      "cui2024replace",
+      "dorner2025limits",
+      "du2023debate",
+      "duan2024gtbench",
+      "durmus2023global",
+      "egami2023dsl",
+      "fang2024patch",
+      "fisch2024stratified",
+      "fish2024collusion",
+      "fu2026moreagents",
+      "fu2026tokenprob",
+      "gandhi2023strategic",
+      "gui2023causal",
+      "guo2023suspicion",
+      "guo2024serial",
+      "gupta2024answerorder",
+      "gupta2024self",
+      "hagendorff2023machine",
+      "he2024formatting",
+      "hochlehnert2025sober",
+      "hua2025flaw",
+      "huang2026knowing",
+      "hullman2025human",
+      "huynh2026disca",
+      "huynh2026payoff",
+      "jain2025agreeableness",
+      "jia2024decision",
+      "jia2025agentic",
+      "jia2025socialscience",
+      "kader2024emergence",
+      "khatun2024mcqa",
+      "kim2025rebuttal",
+      "kunievsky2025intent",
+      "landesberg2025causaljudge",
+      "li2024psychometrics",
+      "li2025silicon",
+      "li2025spontaneous",
+      "li2026scoringbias",
+      "li2026spirit",
+      "light2023avalonbench",
+      "lin2025hearing",
+      "lior2025reliableeval",
+      "liu2024levelk",
+      "liu2025conflictscope",
+      "lore2024strategic",
+      "lu2022fantastically",
+      "ma2026stable",
+      "manning2024automated",
+      "mcilroyyoung2024setbased",
+      "mireshghallah2024confaide",
+      "mizrahi2024state",
+      "motwani2024collusion",
+      "mu2025rop",
+      "mukobi2023welfare",
+      "needham2025evalaware",
+      "ngweta2025mof",
+      "norman2026reliability",
+      "nunes2024hypocrites",
+      "okada2026desirability",
+      "oren2024proving",
+      "park2023generative",
+      "park2024selfreports",
+      "pecher2026underspec",
+      "peysakhovich2023attention",
+      "polo2024efficient",
+      "qwang2025reliable",
+      "raj2025chainguidance",
+      "ren2024emergence",
+      "robinson2025framing",
+      "romanou2026brittlebench",
+      "rosenfeld2025questioning",
+      "ryan2024unintended",
+      "salinas2024butterfly",
+      "schaeffer2023mirage",
+      "scherrer2023evaluating",
+      "serapiogarcia2023personality",
+      "shapira2024clever",
+      "shi2024mink",
+      "shi2025judging",
+      "sofroniew2026emotion",
+      "song2024greedy",
+      "song2025psychometric",
+      "suhr2023challenging",
+      "sun2025gametheory",
+      "tak2026sparks",
+      "tam2024format",
+      "tang2025taskcomplexity",
+      "taubenfeld2026dispositions",
+      "teo2026levelk",
+      "tseng2024persona",
+      "ullman2023trivial",
+      "uluirmak2026evalsafetygap",
+      "vanderweij2025sandbagging",
+      "wang2024mint",
+      "wang2025expecon",
+      "wanglei2024autonomous",
+      "wei2023sycophancy",
+      "wen2025garp",
+      "xie2024trust",
+      "yan2024hqm",
+      "yao2024taubench",
+      "ye2025psychometrics",
+      "yehudai2025evaluation",
+      "yuan2025numerical",
+      "zeinfeld2026dif",
+      "zhang2024klevel",
+      "zhang2025minkpp",
+      "zheng2024selectors",
+      "zhengmt2023judging",
+      "zhou2024paraphrase",
+      "zhou2024sotopia",
+      "zhou2025lost",
+      "zhou2026judgebias",
+      "zhu2024promptrobust",
+      "zierahn2026without",
+      "zrnic2024active",
+      "zrnic2024crossppi"
+    ],
+    "low_arxiv_title_similarity": [],
+    "doi_indeterminate": [
+      "alkhamissi2024investigating",
+      "argyle2023out",
+      "atari2023which",
+      "beck2024sensitivity",
+      "chalamalasetti2023clembench",
+      "cheng2023marked",
+      "cronbach1955construct",
+      "dillion2023replace",
+      "echterhoff2024cognitive",
+      "henrich2010weirdest",
+      "jiang2024personallm",
+      "khan2025randomness",
+      "li2026scoringbias",
+      "lore2024strategic",
+      "milano2025content",
+      "nash1950equilibrium",
+      "rahwan2019machine",
+      "ryan2024unintended",
+      "salinas2024butterfly",
+      "sun2023rankgpt",
+      "tversky1981framing",
+      "zhang2024pacost",
+      "zhu2024promptrobust"
+    ],
+    "doi_failures": [],
+    "low_doi_title_similarity": [],
+    "url_failures": []
+  },
+  "records": {
+    "abdelnabi2023negotiation": {
+      "key": "abdelnabi2023negotiation",
+      "entry_type": "article",
+      "title": "Cooperation, Competition, and Maliciousness: {LLM}-Stakeholders Interactive Negotiation",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2309.17234",
+      "doi": "",
+      "arxiv_id": "2309.17234",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.17234"
+      }
+    },
+    "abdulhai2023lmrlgym": {
+      "key": "abdulhai2023lmrlgym",
+      "entry_type": "article",
+      "title": "{LMRL} Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.18232",
+      "doi": "",
+      "arxiv_id": "2311.18232",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.18232"
+      }
+    },
+    "agashe2023llmcoordination": {
+      "key": "agashe2023llmcoordination",
+      "entry_type": "article",
+      "title": "{LLM}-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.03903",
+      "doi": "",
+      "arxiv_id": "2310.03903",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.03903"
+      }
+    },
+    "agrawal2025collusion": {
+      "key": "agrawal2025collusion",
+      "entry_type": "article",
+      "title": "Evaluating {LLM} Agent Collusion in Double Auctions",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2507.01413",
+      "doi": "",
+      "arxiv_id": "2507.01413",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Evaluating LLM Agent Collusion in Double Auctions",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2507.01413"
+      }
+    },
+    "aher2023turing": {
+      "key": "aher2023turing",
+      "entry_type": "inproceedings",
+      "title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2208.10264",
+      "doi": "",
+      "arxiv_id": "2208.10264",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2208.10264"
+      }
+    },
+    "ai2024selfknowledge": {
+      "key": "ai2024selfknowledge",
+      "entry_type": "article",
+      "title": "Is Self-knowledge and Action Consistent or Not: Investigating Large Language Model's Personality",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.14679",
+      "doi": "",
+      "arxiv_id": "2402.14679",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.14679"
+      }
+    },
+    "akata2025playing": {
+      "key": "akata2025playing",
+      "entry_type": "article",
+      "title": "Playing Repeated Games with Large Language Models",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1038/s41562-025-02172-y",
+      "arxiv_id": "2305.16867",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Playing repeated games with Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "Playing repeated games with large language models",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              8
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "alkhamissi2024investigating": {
+      "key": "alkhamissi2024investigating",
+      "entry_type": "inproceedings",
+      "title": "Investigating Cultural Alignment of Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.671",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "angelopoulos2023ppi": {
+      "key": "angelopoulos2023ppi",
+      "entry_type": "article",
+      "title": "Prediction-powered inference",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2301.09633",
+      "doi": "",
+      "arxiv_id": "2301.09633",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2301.09633"
+      }
+    },
+    "angelopoulos2023ppiplus": {
+      "key": "angelopoulos2023ppiplus",
+      "entry_type": "article",
+      "title": "{PPI++}: Efficient Prediction-Powered Inference",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.01453",
+      "doi": "",
+      "arxiv_id": "2311.01453",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "PPI++: Efficient Prediction-Powered Inference",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.01453"
+      }
+    },
+    "argyle2023out": {
+      "key": "argyle2023out",
+      "entry_type": "article",
+      "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+      "year": "2023",
+      "url": "",
+      "doi": "10.1017/pan.2023.2",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "ashery2025emergent": {
+      "key": "ashery2025emergent",
+      "entry_type": "article",
+      "title": "Emergent Social Conventions and Collective Bias in {LLM} Populations",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2410.08948",
+      "doi": "",
+      "arxiv_id": "2410.08948",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2410.08948"
+      }
+    },
+    "atabuzzaman2025mcqa": {
+      "key": "atabuzzaman2025mcqa",
+      "entry_type": "inproceedings",
+      "title": "Benchmarking and Mitigating {MCQA} Selection Bias of Large Vision-Language Models",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.emnlp-main.1703",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Benchmarking and Mitigating MCQA Selection Bias of Large Vision-Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "atari2023which": {
+      "key": "atari2023which",
+      "entry_type": "article",
+      "title": "Which Humans?",
+      "year": "2023",
+      "url": "",
+      "doi": "10.31234/osf.io/5b26t",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "atil2025nondeterminism": {
+      "key": "atil2025nondeterminism",
+      "entry_type": "inproceedings",
+      "title": "Non-Determinism of ``Deterministic'' {LLM} System Settings in Hosted Environments",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.eval4nlp-1.12",
+      "arxiv_id": "2408.04667",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "Non-Determinism of “Deterministic” LLM System Settings in Hosted Environments",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "balepur2024artifacts": {
+      "key": "balepur2024artifacts",
+      "entry_type": "inproceedings",
+      "title": "Artifacts or Abduction: How Do {LLMs} Answer Multiple-Choice Questions Without the Question?",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.555",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Artifacts or Abduction: How Do LLMs Answer Multiple-Choice Questions Without the Question?",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "bean2025measuring": {
+      "key": "bean2025measuring",
+      "entry_type": "inproceedings",
+      "title": "Measuring What Matters: Construct Validity in Large Language Model Benchmarks",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2511.04703",
+      "doi": "",
+      "arxiv_id": "2511.04703",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2511.04703"
+      }
+    },
+    "beck2024sensitivity": {
+      "key": "beck2024sensitivity",
+      "entry_type": "inproceedings",
+      "title": "Sensitivity, Performance, Robustness: Deconstructing the Effect of Sociodemographic Prompting",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.eacl-long.159",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "bellibatlu2026judgesense": {
+      "key": "bellibatlu2026judgesense",
+      "entry_type": "misc",
+      "title": "{JudgeSense}: A Benchmark for Prompt Sensitivity in {LLM-as-a-Judge} Systems",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2604.23478",
+      "doi": "",
+      "arxiv_id": "2604.23478",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2604.23478"
+      }
+    },
+    "berglund2023outofcontext": {
+      "key": "berglund2023outofcontext",
+      "entry_type": "article",
+      "title": "Taken Out of Context: On Measuring Situational Awareness in {LLM}s",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2309.00667",
+      "doi": "",
+      "arxiv_id": "2309.00667",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.00667"
+      }
+    },
+    "bhandari2025evaluating": {
+      "key": "bhandari2025evaluating",
+      "entry_type": "article",
+      "title": "Evaluating Personality Traits in Large Language Models: Insights from Psychological Questionnaires",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.05248",
+      "doi": "",
+      "arxiv_id": "2502.05248",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.05248"
+      }
+    },
+    "bianchi2024negotiation": {
+      "key": "bianchi2024negotiation",
+      "entry_type": "misc",
+      "title": "How Well Can {LLMs} Negotiate? {NegotiationArena} Platform and Analysis",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.05863",
+      "doi": "",
+      "arxiv_id": "2402.05863",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.05863"
+      }
+    },
+    "binz2023cognitive": {
+      "key": "binz2023cognitive",
+      "entry_type": "article",
+      "title": "Using Cognitive Psychology to Understand {GPT}-3",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2206.14576",
+      "doi": "",
+      "arxiv_id": "2206.14576",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Using cognitive psychology to understand GPT-3",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2206.14576"
+      }
+    },
+    "bisbee2024synthetic": {
+      "key": "bisbee2024synthetic",
+      "entry_type": "article",
+      "title": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1017/pan.2024.5",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Synthetic Replacements for Human Survey Data? The Perils of Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "bodroza2024temporal": {
+      "key": "bodroza2024temporal",
+      "entry_type": "article",
+      "title": "Personality testing of large language models: limited temporal stability, but highlighted prosociality",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1098/rsos.240180",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Personality testing of large language models: limited temporal stability, but highlighted prosociality",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "bogavelli2026enterprise": {
+      "key": "bogavelli2026enterprise",
+      "entry_type": "article",
+      "title": "Evaluating Robustness of Large Language Models in Enterprise Applications: Benchmarks for Perturbation Consistency Across Formats and Languages",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.06341",
+      "doi": "",
+      "arxiv_id": "2601.06341",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Evaluating Robustness of Large Language Models in Enterprise Applications: Benchmarks for Perturbation Consistency Across Formats and Languages",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.06341"
+      }
+    },
+    "braun2025acquiescence": {
+      "key": "braun2025acquiescence",
+      "entry_type": "inproceedings",
+      "title": "Acquiescence Bias in Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.08480",
+      "doi": "",
+      "arxiv_id": "2509.08480",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Acquiescence Bias in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.08480"
+      }
+    },
+    "bui2025seeds": {
+      "key": "bui2025seeds",
+      "entry_type": "inproceedings",
+      "title": "Assessing the Macro and Micro Effects of Random Seeds on Fine-Tuning Large Language Models",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.ijcnlp-short.3",
+      "arxiv_id": "2503.07329",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Assessing the Macro and Micro Effects of Random Seeds on Fine-Tuning Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "Assessing the Macro and Micro Effects of Random Seeds on Fine-Tuning Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "cao2024worst": {
+      "key": "cao2024worst",
+      "entry_type": "inproceedings",
+      "title": "On the Worst Prompt Performance of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.10248",
+      "doi": "",
+      "arxiv_id": "2406.10248",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "On the Worst Prompt Performance of Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.10248"
+      }
+    },
+    "cemri2025mast": {
+      "key": "cemri2025mast",
+      "entry_type": "article",
+      "title": "Why Do Multi-Agent {LLM} Systems Fail?",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2503.13657",
+      "doi": "",
+      "arxiv_id": "2503.13657",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Why Do Multi-Agent LLM Systems Fail?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2503.13657"
+      }
+    },
+    "chakrabarty2024artorartifice": {
+      "key": "chakrabarty2024artorartifice",
+      "entry_type": "inproceedings",
+      "title": "Art or Artifice? Large Language Models and the False Promise of Creativity",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1145/3613904.3642731",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Art or Artifice? Large Language Models and the False Promise of Creativity",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              11
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "chalamalasetti2023clembench": {
+      "key": "chalamalasetti2023clembench",
+      "entry_type": "inproceedings",
+      "title": "clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.emnlp-main.689",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "chang2024behavior": {
+      "key": "chang2024behavior",
+      "entry_type": "article",
+      "title": "Language Model Behavior: A Comprehensive Survey",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2303.11504",
+      "doi": "",
+      "arxiv_id": "2303.11504",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2303.11504"
+      }
+    },
+    "chatterjee2024posix": {
+      "key": "chatterjee2024posix",
+      "entry_type": "inproceedings",
+      "title": "{POSIX}: A Prompt Sensitivity Index For Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2410.02185",
+      "doi": "",
+      "arxiv_id": "2410.02185",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2410.02185"
+      }
+    },
+    "chatzi2024ranking": {
+      "key": "chatzi2024ranking",
+      "entry_type": "inproceedings",
+      "title": "Prediction-Powered Ranking of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.17826",
+      "doi": "",
+      "arxiv_id": "2402.17826",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.17826"
+      }
+    },
+    "chen2023emergence": {
+      "key": "chen2023emergence",
+      "entry_type": "article",
+      "title": "The Emergence of Economic Rationality of {GPT}",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2305.12763",
+      "doi": "",
+      "arxiv_id": "2305.12763",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "The Emergence of Economic Rationality of GPT",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2305.12763"
+      }
+    },
+    "chen2024llmcalls": {
+      "key": "chen2024llmcalls",
+      "entry_type": "article",
+      "title": "Are More {LLM} Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2403.02419",
+      "doi": "",
+      "arxiv_id": "2403.02419",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Are More LLM Calls All You Need? Towards Scaling Laws of Compound Inference Systems",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2403.02419"
+      }
+    },
+    "chen2024premise": {
+      "key": "chen2024premise",
+      "entry_type": "inproceedings",
+      "title": "Premise Order Matters in Reasoning with Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.08939",
+      "doi": "",
+      "arxiv_id": "2402.08939",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.08939"
+      }
+    },
+    "chen2025compact": {
+      "key": "chen2025compact",
+      "entry_type": "article",
+      "title": "Learning Compact Representations of {LLM} Abilities via Item Response Theory",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.00844",
+      "doi": "",
+      "arxiv_id": "2510.00844",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.00844"
+      }
+    },
+    "cheng2023compost": {
+      "key": "cheng2023compost",
+      "entry_type": "inproceedings",
+      "title": "{CoMPosT}: Characterizing and Evaluating Caricature in {LLM} Simulations",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.emnlp-main.669",
+      "arxiv_id": "2310.11501",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "CoMPosT: Characterizing and Evaluating Caricature in LLM Simulations",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "cheng2023marked": {
+      "key": "cheng2023marked",
+      "entry_type": "inproceedings",
+      "title": "Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.acl-long.84",
+      "arxiv_id": "2305.18189",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "choi2025nodepruning": {
+      "key": "choi2025nodepruning",
+      "entry_type": "inproceedings",
+      "title": "Mitigating Selection Bias with Node Pruning and Auxiliary Options",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.acl-long.259",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Mitigating Selection Bias with Node Pruning and Auxiliary Options",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "chuang2024simulating": {
+      "key": "chuang2024simulating",
+      "entry_type": "inproceedings",
+      "title": "Simulating Opinion Dynamics with Networks of {LLM}-based Agents",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2311.09618",
+      "doi": "",
+      "arxiv_id": "2311.09618",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Simulating Opinion Dynamics with Networks of LLM-based Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.09618"
+      }
+    },
+    "contreras2026native": {
+      "key": "contreras2026native",
+      "entry_type": "article",
+      "title": "An {LLM}-Native Psychometric Instrument Reveals a Self-Report and Behavior Gap Across 25 Models",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.09843",
+      "doi": "",
+      "arxiv_id": "2606.09843",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "An LLM-Native Psychometric Instrument Reveals a Self-Report--Behavior Gap Across 25 Models",
+      "arxiv_title_similarity": 0.978,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.09843"
+      }
+    },
+    "cronbach1955construct": {
+      "key": "cronbach1955construct",
+      "entry_type": "article",
+      "title": "Construct Validity in Psychological Tests",
+      "year": "1955",
+      "url": "",
+      "doi": "10.1037/h0040957",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "cui2024replace": {
+      "key": "cui2024replace",
+      "entry_type": "article",
+      "title": "Can Large Language Models Replace Human Subjects? A Large-Scale Replication of Scenario-Based Experiments in Psychology and Management",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2409.00128",
+      "doi": "",
+      "arxiv_id": "2409.00128",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2409.00128"
+      }
+    },
+    "dekoninck2024constat": {
+      "key": "dekoninck2024constat",
+      "entry_type": "article",
+      "title": "{ConStat}: Performance-Based Contamination Detection in Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2405.16281",
+      "doi": "",
+      "arxiv_id": "2405.16281",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "ConStat: Performance-Based Contamination Detection in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2405.16281"
+      }
+    },
+    "dillion2023replace": {
+      "key": "dillion2023replace",
+      "entry_type": "article",
+      "title": "Can {AI} language models replace human participants?",
+      "year": "2023",
+      "url": "",
+      "doi": "10.1016/j.tics.2023.04.008",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "dogruoz2026challenges": {
+      "key": "dogruoz2026challenges",
+      "entry_type": "article",
+      "title": "Challenges and Recommendations for {LLMs}-as-a-Judge in Multilingual Settings and Low-Resource Languages",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2607.02235",
+      "doi": "",
+      "arxiv_id": "2607.02235",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2607.02235"
+      }
+    },
+    "dominguez2024questioning": {
+      "key": "dominguez2024questioning",
+      "entry_type": "inproceedings",
+      "title": "Questioning the Survey Responses of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2306.07951",
+      "doi": "",
+      "arxiv_id": "2306.07951",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Questioning the Survey Responses of Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2306.07951"
+      }
+    },
+    "dorner2025limits": {
+      "key": "dorner2025limits",
+      "entry_type": "inproceedings",
+      "title": "Limits to Scalable Evaluation at the Frontier: {LLM} as Judge Will Not Beat Twice the Data",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2410.13341",
+      "doi": "",
+      "arxiv_id": "2410.13341",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2410.13341"
+      }
+    },
+    "du2023debate": {
+      "key": "du2023debate",
+      "entry_type": "article",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2305.14325",
+      "doi": "",
+      "arxiv_id": "2305.14325",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2305.14325"
+      }
+    },
+    "duan2024gtbench": {
+      "key": "duan2024gtbench",
+      "entry_type": "inproceedings",
+      "title": "{GTBench}: Uncovering the Strategic Reasoning Limitations of {LLMs} via Game-Theoretic Evaluations",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.12348",
+      "doi": "",
+      "arxiv_id": "2402.12348",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.12348"
+      }
+    },
+    "duan2024mimir": {
+      "key": "duan2024mimir",
+      "entry_type": "inproceedings",
+      "title": "Do Membership Inference Attacks Work on Large Language Models?",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.07841",
+      "doi": "",
+      "arxiv_id": "2402.07841",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Do Membership Inference Attacks Work on Large Language Models?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.07841"
+      }
+    },
+    "dubois2024lengthcontrolled": {
+      "key": "dubois2024lengthcontrolled",
+      "entry_type": "inproceedings",
+      "title": "Length-Controlled {AlpacaEval}: A Simple Way to Debias Automatic Evaluators",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.04475",
+      "doi": "",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.04475"
+      }
+    },
+    "durmus2023global": {
+      "key": "durmus2023global",
+      "entry_type": "article",
+      "title": "Towards Measuring the Representation of Subjective Global Opinions in Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2306.16388",
+      "doi": "",
+      "arxiv_id": "2306.16388",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2306.16388"
+      }
+    },
+    "echterhoff2024cognitive": {
+      "key": "echterhoff2024cognitive",
+      "entry_type": "inproceedings",
+      "title": "Cognitive Bias in Decision-Making with {LLMs}",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-emnlp.739",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "egami2023dsl": {
+      "key": "egami2023dsl",
+      "entry_type": "inproceedings",
+      "title": "Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2306.04746",
+      "doi": "",
+      "arxiv_id": "2306.04746",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2306.04746"
+      }
+    },
+    "elazar2021measuring": {
+      "key": "elazar2021measuring",
+      "entry_type": "article",
+      "title": "Measuring and Improving Consistency in Pretrained Language Models",
+      "year": "2021",
+      "url": "",
+      "doi": "10.1162/tacl_a_00410",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Measuring and Improving Consistency in Pretrained Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              6
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "fan2024rational": {
+      "key": "fan2024rational",
+      "entry_type": "inproceedings",
+      "title": "Can Large Language Models Serve as Rational Players in Game Theory? A Systematic Analysis",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2312.05488",
+      "doi": "",
+      "arxiv_id": "2312.05488",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Can Large Language Models Serve as Rational Players in Game Theory? A Systematic Analysis",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2312.05488"
+      }
+    },
+    "fang2024patch": {
+      "key": "fang2024patch",
+      "entry_type": "article",
+      "title": "{PATCH}: Psychometrics-Assisted Benchmarking of Large Language Models against Human Populations",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.01799",
+      "doi": "",
+      "arxiv_id": "2404.01799",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.01799"
+      }
+    },
+    "feng2023pretraining": {
+      "key": "feng2023pretraining",
+      "entry_type": "inproceedings",
+      "title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair {NLP} Models",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.acl-long.656",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "feuerriegel2026guide": {
+      "key": "feuerriegel2026guide",
+      "entry_type": "article",
+      "title": "A reporting checklist for large language models in behavioural science",
+      "year": "2026",
+      "url": "",
+      "doi": "10.1038/s41562-026-02492-7",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "A reporting checklist for large language models in behavioural science",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              9
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "fisch2024stratified": {
+      "key": "fisch2024stratified",
+      "entry_type": "article",
+      "title": "Stratified Prediction-Powered Inference for Hybrid Language Model Evaluation",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.04291",
+      "doi": "",
+      "arxiv_id": "2406.04291",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.04291"
+      }
+    },
+    "fish2024collusion": {
+      "key": "fish2024collusion",
+      "entry_type": "misc",
+      "title": "Algorithmic Collusion by Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.00806",
+      "doi": "",
+      "arxiv_id": "2404.00806",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.00806"
+      }
+    },
+    "fontana2025nicer": {
+      "key": "fontana2025nicer",
+      "entry_type": "inproceedings",
+      "title": "Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2406.13605",
+      "doi": "",
+      "arxiv_id": "2406.13605",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Nicer Than Humans: How do Large Language Models Behave in the Prisoner's Dilemma?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.13605"
+      }
+    },
+    "fu2025reliable": {
+      "key": "fu2025reliable",
+      "entry_type": "article",
+      "title": "How Reliable Is Multilingual {LLM}-as-a-Judge?",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.12201",
+      "doi": "",
+      "arxiv_id": "2505.12201",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "How Reliable is Multilingual LLM-as-a-Judge?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.12201"
+      }
+    },
+    "fu2026moreagents": {
+      "key": "fu2026moreagents",
+      "entry_type": "article",
+      "title": "Do More Agents Help? Controlled and Protocol-Aligned Evaluation of {LLM} Agent Workflows",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.05670",
+      "doi": "",
+      "arxiv_id": "2606.05670",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.05670"
+      }
+    },
+    "fu2026tokenprob": {
+      "key": "fu2026tokenprob",
+      "entry_type": "article",
+      "title": "Beyond Reproducibility: Token Probabilities Expose Large Language Model Nondeterminism",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.06118",
+      "doi": "",
+      "arxiv_id": "2601.06118",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.06118"
+      }
+    },
+    "gandhi2023strategic": {
+      "key": "gandhi2023strategic",
+      "entry_type": "misc",
+      "title": "Strategic Reasoning with Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2305.19165",
+      "doi": "",
+      "arxiv_id": "2305.19165",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2305.19165"
+      }
+    },
+    "gligoric2025confident": {
+      "key": "gligoric2025confident",
+      "entry_type": "inproceedings",
+      "title": "Can Unconfident {LLM} Annotations Be Used for Confident Conclusions?",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.naacl-long.179",
+      "arxiv_id": "2408.15204",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Can Unconfident LLM Annotations Be Used for Confident Conclusions?",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "Can Unconfident LLM Annotations Be Used for Confident Conclusions?",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "goel2025lifelong": {
+      "key": "goel2025lifelong",
+      "entry_type": "article",
+      "title": "Lifelong-{SOTOPIA}: Evaluating Social Intelligence of Language Agents Over Lifelong Social Interactions",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.12666",
+      "doi": "",
+      "arxiv_id": "2506.12666",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "LIFELONG SOTOPIA: Evaluating Social Intelligence of Language Agents Over Lifelong Social Interactions",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.12666"
+      }
+    },
+    "grossmann2023transformation": {
+      "key": "grossmann2023transformation",
+      "entry_type": "article",
+      "title": "{AI} and the transformation of social science research",
+      "year": "2023",
+      "url": "",
+      "doi": "10.1126/science.adi1778",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "AI and the transformation of social science research",
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              16
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "gu2024judge": {
+      "key": "gu2024judge",
+      "entry_type": "misc",
+      "title": "A Survey on {LLM}-as-a-Judge",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2411.15594",
+      "doi": "",
+      "arxiv_id": "2411.15594",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "A Survey on LLM-as-a-Judge",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2411.15594"
+      }
+    },
+    "gu2025revealed": {
+      "key": "gu2025revealed",
+      "entry_type": "article",
+      "title": "Alignment Revisited: Are Large Language Models Consistent in Stated and Revealed Preferences?",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.00751",
+      "doi": "",
+      "arxiv_id": "2506.00751",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Alignment Revisited: Are Large Language Models Consistent in Stated and Revealed Preferences?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.00751"
+      }
+    },
+    "gui2023causal": {
+      "key": "gui2023causal",
+      "entry_type": "article",
+      "title": "The Challenge of Using {LLM}s to Simulate Human Behavior: A Causal Inference Perspective",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2312.15524",
+      "doi": "",
+      "arxiv_id": "2312.15524",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2312.15524"
+      }
+    },
+    "guo2023suspicion": {
+      "key": "guo2023suspicion",
+      "entry_type": "inproceedings",
+      "title": "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware {GPT}-4",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2309.17277",
+      "doi": "",
+      "arxiv_id": "2309.17277",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.17277"
+      }
+    },
+    "guo2024serial": {
+      "key": "guo2024serial",
+      "entry_type": "misc",
+      "title": "Serial Position Effects of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.15981",
+      "doi": "",
+      "arxiv_id": "2406.15981",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.15981"
+      }
+    },
+    "gupta2024answerorder": {
+      "key": "gupta2024answerorder",
+      "entry_type": "article",
+      "title": "Changing Answer Order Can Decrease {MMLU} Accuracy",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.19470",
+      "doi": "",
+      "arxiv_id": "2406.19470",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.19470"
+      }
+    },
+    "gupta2024self": {
+      "key": "gupta2024self",
+      "entry_type": "inproceedings",
+      "title": "Self-Assessment Tests are Unreliable Measures of {LLM} Personality",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2309.08163",
+      "doi": "",
+      "arxiv_id": "2309.08163",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.08163"
+      }
+    },
+    "habba2025dove": {
+      "key": "habba2025dove",
+      "entry_type": "inproceedings",
+      "title": "{DOVE}: A Large-Scale Multi-Dimensional Predictions Dataset Towards Meaningful {LLM} Evaluation",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2503.01622",
+      "doi": "",
+      "arxiv_id": "2503.01622",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "DOVE: A Large-Scale Multi-Dimensional Predictions Dataset Towards Meaningful LLM Evaluation",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2503.01622"
+      }
+    },
+    "hagendorff2023machine": {
+      "key": "hagendorff2023machine",
+      "entry_type": "misc",
+      "title": "Machine Psychology",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2303.13988",
+      "doi": "",
+      "arxiv_id": "2303.13988",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2303.13988"
+      }
+    },
+    "han2025illusion": {
+      "key": "han2025illusion",
+      "entry_type": "article",
+      "title": "The Personality Illusion: Revealing Dissociation Between Self-Reports and Behavior in {LLM}s",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.03730",
+      "doi": "",
+      "arxiv_id": "2509.03730",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs",
+      "arxiv_title_similarity": 0.971,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.03730"
+      }
+    },
+    "hao2026gametheoretic": {
+      "key": "hao2026gametheoretic",
+      "entry_type": "article",
+      "title": "Game-Theoretic Lens on {LLM}-based Multi-Agent Systems",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.15047",
+      "doi": "",
+      "arxiv_id": "2601.15047",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Game-Theoretic Lens on LLM-based Multi-Agent Systems",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.15047"
+      }
+    },
+    "harding2024cannot": {
+      "key": "harding2024cannot",
+      "entry_type": "article",
+      "title": "{AI} language models cannot replace human research participants",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1007/s00146-023-01725-x",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "AI language models cannot replace human research participants",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "he2024formatting": {
+      "key": "he2024formatting",
+      "entry_type": "article",
+      "title": "Does Prompt Formatting Have Any Impact on {LLM} Performance?",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2411.10541",
+      "doi": "",
+      "arxiv_id": "2411.10541",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2411.10541"
+      }
+    },
+    "henrich2010weirdest": {
+      "key": "henrich2010weirdest",
+      "entry_type": "article",
+      "title": "The Weirdest People in the World?",
+      "year": "2010",
+      "url": "",
+      "doi": "10.1017/S0140525X0999152X",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "hochlehnert2025sober": {
+      "key": "hochlehnert2025sober",
+      "entry_type": "inproceedings",
+      "title": "A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2504.07086",
+      "doi": "",
+      "arxiv_id": "2504.07086",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2504.07086"
+      }
+    },
+    "horton2023homo": {
+      "key": "horton2023homo",
+      "entry_type": "article",
+      "title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2301.07543",
+      "doi": "",
+      "arxiv_id": "2301.07543",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2301.07543"
+      }
+    },
+    "hua2024waragent": {
+      "key": "hua2024waragent",
+      "entry_type": "misc",
+      "title": "War and Peace ({WarAgent}): Large Language Model-based Multi-Agent Simulation of World Wars",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.17227",
+      "doi": "",
+      "arxiv_id": "2311.17227",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.17227"
+      }
+    },
+    "hua2025flaw": {
+      "key": "hua2025flaw",
+      "entry_type": "inproceedings",
+      "title": "Flaw or Artifact? Rethinking Prompt Sensitivity in Evaluating {LLMs}",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.01790",
+      "doi": "",
+      "arxiv_id": "2509.01790",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.01790"
+      }
+    },
+    "huang2025anchoring": {
+      "key": "huang2025anchoring",
+      "entry_type": "misc",
+      "title": "Understanding the Anchoring Effect of {LLM} with Synthetic Data: Existence, Mechanism, and Potential Mitigations",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.15392",
+      "doi": "",
+      "arxiv_id": "2505.15392",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Understanding the Anchoring Effect of LLM with Synthetic Data: Existence, Mechanism, and Potential Mitigations",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.15392"
+      }
+    },
+    "huang2025gama": {
+      "key": "huang2025gama",
+      "entry_type": "inproceedings",
+      "title": "How Far Are We on the Decision-Making of {LLMs}? Evaluating {LLMs}' Gaming Ability in Multi-Agent Environments",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2403.11807",
+      "doi": "",
+      "arxiv_id": "2403.11807",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2403.11807"
+      }
+    },
+    "huang2026knowing": {
+      "key": "huang2026knowing",
+      "entry_type": "article",
+      "title": "Knowing But Not Doing: Convergent Morality and Divergent Action in {LLMs}",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.07972",
+      "doi": "",
+      "arxiv_id": "2601.07972",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.07972"
+      }
+    },
+    "hucollier2024persona": {
+      "key": "hucollier2024persona",
+      "entry_type": "inproceedings",
+      "title": "Quantifying the Persona Effect in {LLM} Simulations",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.554",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Quantifying the Persona Effect in LLM Simulations",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "hufrank2024auxiliary": {
+      "key": "hufrank2024auxiliary",
+      "entry_type": "inproceedings",
+      "title": "Auxiliary Task Demands Mask the Capabilities of Smaller Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.02418",
+      "doi": "",
+      "arxiv_id": "2404.02418",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Auxiliary task demands mask the capabilities of smaller language models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.02418"
+      }
+    },
+    "hullman2025human": {
+      "key": "hullman2025human",
+      "entry_type": "misc",
+      "title": "This Human Study Did Not Involve Human Subjects: Validating {LLM} Simulations as Behavioral Evidence",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.15785",
+      "doi": "",
+      "arxiv_id": "2602.15785",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2602.15785"
+      }
+    },
+    "huynh2026disca": {
+      "key": "huynh2026disca",
+      "entry_type": "article",
+      "title": "Training-Free Cultural Alignment of Large Language Models via Persona Disagreement",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2605.10843",
+      "doi": "",
+      "arxiv_id": "2605.10843",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2605.10843"
+      }
+    },
+    "huynh2026payoff": {
+      "key": "huynh2026payoff",
+      "entry_type": "article",
+      "title": "Payoff Scaling Shapes Cooperation in {LLM} Agents across Languages",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.19082",
+      "doi": "",
+      "arxiv_id": "2601.19082",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.19082"
+      }
+    },
+    "hwang2023aligning": {
+      "key": "hwang2023aligning",
+      "entry_type": "inproceedings",
+      "title": "Aligning Language Models to User Opinions",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.findings-emnlp.393",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Aligning Language Models to User Opinions",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "ivanova2025evaluate": {
+      "key": "ivanova2025evaluate",
+      "entry_type": "article",
+      "title": "How to Evaluate the Cognitive Abilities of {LLMs}",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1038/s41562-024-02096-z",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "How to evaluate the cognitive abilities of LLMs",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              15
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "jain2025agreeableness": {
+      "key": "jain2025agreeableness",
+      "entry_type": "article",
+      "title": "Beyond Consensus: Mitigating the Agreeableness Bias in {LLM} Judge Evaluations",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.11822",
+      "doi": "",
+      "arxiv_id": "2510.11822",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.11822"
+      }
+    },
+    "jang2023consistency": {
+      "key": "jang2023consistency",
+      "entry_type": "inproceedings",
+      "title": "Consistency Analysis of {ChatGPT}",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.emnlp-main.991",
+      "arxiv_id": "2303.06273",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Consistency Analysis of ChatGPT",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "Consistency Analysis of ChatGPT",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "jia2024decision": {
+      "key": "jia2024decision",
+      "entry_type": "article",
+      "title": "Decision-Making Behavior Evaluation Framework for {LLMs} under Uncertain Context",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.05972",
+      "doi": "",
+      "arxiv_id": "2406.05972",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.05972"
+      }
+    },
+    "jia2025agentic": {
+      "key": "jia2025agentic",
+      "entry_type": "article",
+      "title": "{LLM} Strategic Reasoning: Agentic Study through Behavioral Game Theory",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.20432",
+      "doi": "",
+      "arxiv_id": "2502.20432",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.20432"
+      }
+    },
+    "jia2025socialscience": {
+      "key": "jia2025socialscience",
+      "entry_type": "article",
+      "title": "The Emergence of Social Science of Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.24877",
+      "doi": "",
+      "arxiv_id": "2509.24877",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.24877"
+      }
+    },
+    "jiang2024personallm": {
+      "key": "jiang2024personallm",
+      "entry_type": "inproceedings",
+      "title": "{PersonaLLM}: Investigating the Ability of Large Language Models to Express Personality Traits",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-naacl.229",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "jung2025psychometric": {
+      "key": "jung2025psychometric",
+      "entry_type": "article",
+      "title": "Do Psychometric Tests Work for Large Language Models? Evaluation of Tests on Sexism, Racism, and Morality",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.11254",
+      "doi": "",
+      "arxiv_id": "2510.11254",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Do Psychometric Tests Work for Large Language Models? Evaluation of Tests on Sexism, Racism, and Morality",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.11254"
+      }
+    },
+    "kader2024emergence": {
+      "key": "kader2024emergence",
+      "entry_type": "article",
+      "title": "The Emergence of Strategic Reasoning of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2412.13013",
+      "doi": "",
+      "arxiv_id": "2412.13013",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2412.13013"
+      }
+    },
+    "khan2025randomness": {
+      "key": "khan2025randomness",
+      "entry_type": "inproceedings",
+      "title": "Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in {LLMs}",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1145/3715275.3732147",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "khatun2024mcqa": {
+      "key": "khatun2024mcqa",
+      "entry_type": "article",
+      "title": "A Study on Large Language Models' Limitations in Multiple-Choice Question Answering",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2401.07955",
+      "doi": "",
+      "arxiv_id": "2401.07955",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2401.07955"
+      }
+    },
+    "kim2025rebuttal": {
+      "key": "kim2025rebuttal",
+      "entry_type": "inproceedings",
+      "title": "Challenging the Evaluator: {LLM} Sycophancy Under User Rebuttal",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.16533",
+      "doi": "",
+      "arxiv_id": "2509.16533",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.16533"
+      }
+    },
+    "kirk2024prism": {
+      "key": "kirk2024prism",
+      "entry_type": "inproceedings",
+      "title": "The {PRISM} Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.16019",
+      "doi": "",
+      "arxiv_id": "2404.16019",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.16019"
+      }
+    },
+    "kunievsky2025intent": {
+      "key": "kunievsky2025intent",
+      "entry_type": "misc",
+      "title": "Measuring Intent Comprehension in {LLMs}",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.16584",
+      "doi": "",
+      "arxiv_id": "2506.16584",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.16584"
+      }
+    },
+    "laine2024sad": {
+      "key": "laine2024sad",
+      "entry_type": "article",
+      "title": "Me, Myself, and {AI}: The Situational Awareness Dataset ({SAD}) for {LLM}s",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2407.04694",
+      "doi": "",
+      "arxiv_id": "2407.04694",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs",
+      "arxiv_title_similarity": 0.992,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2407.04694"
+      }
+    },
+    "landesberg2025causaljudge": {
+      "key": "landesberg2025causaljudge",
+      "entry_type": "misc",
+      "title": "Causal Judge Evaluation: Calibrated Surrogate Metrics for {LLM} Systems",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2512.11150",
+      "doi": "",
+      "arxiv_id": "2512.11150",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2512.11150"
+      }
+    },
+    "larooij2025validation": {
+      "key": "larooij2025validation",
+      "entry_type": "article",
+      "title": "Validation Is the Central Challenge for Generative Social Simulation: A Critical Review of {LLMs} in Agent-Based Modeling",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1007/s10462-025-11412-6",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Validation is the central challenge for generative social simulation: a critical review of LLMs in agent-based modeling",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              18
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "laskar2024systematic": {
+      "key": "laskar2024systematic",
+      "entry_type": "inproceedings",
+      "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+      "year": "2024",
+      "url": "https://aclanthology.org/2024.emnlp-main.764/",
+      "doi": "10.18653/v1/2024.emnlp-main.764",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://aclanthology.org/2024.emnlp-main.764/"
+      },
+      "doi_check": {
+        "ok": true,
+        "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "li2024psychometrics": {
+      "key": "li2024psychometrics",
+      "entry_type": "article",
+      "title": "Evaluating Large Language Models with Psychometrics",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.17675",
+      "doi": "",
+      "arxiv_id": "2406.17675",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.17675"
+      }
+    },
+    "li2025calibraeval": {
+      "key": "li2025calibraeval",
+      "entry_type": "inproceedings",
+      "title": "{CalibraEval}: Calibrating Prediction Distribution to Mitigate Selection Bias in {LLMs}-as-Judges",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2410.15393",
+      "doi": "",
+      "arxiv_id": "2410.15393",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias in LLMs-as-Judges",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2410.15393"
+      }
+    },
+    "li2025silicon": {
+      "key": "li2025silicon",
+      "entry_type": "misc",
+      "title": "{ChatGPT} is not A Man but Das Man: Representativeness and Structural Consistency of Silicon Samples Generated by Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2507.02919",
+      "doi": "",
+      "arxiv_id": "2507.02919",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2507.02919"
+      }
+    },
+    "li2025spontaneous": {
+      "key": "li2025spontaneous",
+      "entry_type": "inproceedings",
+      "title": "Spontaneous Giving and Calculated Greed in Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.17720",
+      "doi": "",
+      "arxiv_id": "2502.17720",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.17720"
+      }
+    },
+    "li2026scoringbias": {
+      "key": "li2026scoringbias",
+      "entry_type": "inproceedings",
+      "title": "Evaluating Scoring Bias in {LLM}-as-a-Judge",
+      "year": "2026",
+      "url": "",
+      "doi": "10.1007/978-981-92-0372-7_2",
+      "arxiv_id": "2506.22316",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "li2026spirit": {
+      "key": "li2026spirit",
+      "entry_type": "misc",
+      "title": "Persona-Based Simulation of Human Opinion at Population Scale",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.27056",
+      "doi": "",
+      "arxiv_id": "2603.27056",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.27056"
+      }
+    },
+    "light2023avalonbench": {
+      "key": "light2023avalonbench",
+      "entry_type": "misc",
+      "title": "{AvalonBench}: Evaluating {LLMs} Playing the Game of Avalon",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.05036",
+      "doi": "",
+      "arxiv_id": "2310.05036",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.05036"
+      }
+    },
+    "lim2025languagespecific": {
+      "key": "lim2025languagespecific",
+      "entry_type": "article",
+      "title": "Language-Specific Latent Process Hinders Cross-Lingual Performance",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.13141",
+      "doi": "",
+      "arxiv_id": "2505.13141",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Language-Specific Latent Process Hinders Cross-Lingual Performance",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.13141"
+      }
+    },
+    "lin2025hearing": {
+      "key": "lin2025hearing",
+      "entry_type": "article",
+      "title": "Hearing the Order: Investigating Position Bias in Large Audio-Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.00628",
+      "doi": "",
+      "arxiv_id": "2510.00628",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.00628"
+      }
+    },
+    "lin2025prompts": {
+      "key": "lin2025prompts",
+      "entry_type": "article",
+      "title": "From Prompts to Constructs: A Dual-Validity Framework for {LLM} Research in Psychology",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.16697",
+      "doi": "",
+      "arxiv_id": "2506.16697",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "From Prompts to Constructs: A Dual-Validity Framework for LLM Research in Psychology",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.16697"
+      }
+    },
+    "lin2026validity": {
+      "key": "lin2026validity",
+      "entry_type": "article",
+      "title": "A validity-guided workflow for robust large language model research in psychology",
+      "year": "2026",
+      "url": "",
+      "doi": "10.3758/s13428-026-03073-2",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "A validity-guided workflow for robust large language model research in psychology",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              1
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "lior2025reliableeval": {
+      "key": "lior2025reliableeval",
+      "entry_type": "inproceedings",
+      "title": "{ReliableEval}: A Recipe for Stochastic {LLM} Evaluation via Method of Moments",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.findings-emnlp.594",
+      "arxiv_id": "2505.22169",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "ReliableEval: A Recipe for Stochastic LLM Evaluation via Method of Moments",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "liu2024autonomous": {
+      "key": "liu2024autonomous",
+      "entry_type": "inproceedings",
+      "title": "Autonomous Agents for Collaborative Task under Information Asymmetry",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.14928",
+      "doi": "",
+      "arxiv_id": "2406.14928",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Autonomous Agents for Collaborative Task under Information Asymmetry",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.14928"
+      }
+    },
+    "liu2024levelk": {
+      "key": "liu2024levelk",
+      "entry_type": "article",
+      "title": "Level-$k$ Reasoning, Cognitive Hierarchy, and Rationalizability",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.19623",
+      "doi": "",
+      "arxiv_id": "2404.19623",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.19623"
+      }
+    },
+    "liu2024lostmiddle": {
+      "key": "liu2024lostmiddle",
+      "entry_type": "article",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1162/tacl_a_00638",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Lost in the Middle: How Language Models Use Long Contexts",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              23
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "liu2025chbench": {
+      "key": "liu2025chbench",
+      "entry_type": "article",
+      "title": "{CHBench}: A Cognitive Hierarchy Benchmark for Evaluating Strategic Reasoning Capability of {LLMs}",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2508.11944",
+      "doi": "",
+      "arxiv_id": "2508.11944",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "CHBench: A Cognitive Hierarchy Benchmark for Evaluating Strategic Reasoning Capability of LLMs",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2508.11944"
+      }
+    },
+    "liu2025conflictscope": {
+      "key": "liu2025conflictscope",
+      "entry_type": "article",
+      "title": "Generative Value Conflicts Reveal {LLM} Priorities",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.25369",
+      "doi": "",
+      "arxiv_id": "2509.25369",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.25369"
+      }
+    },
+    "liu2025machines": {
+      "key": "liu2025machines",
+      "entry_type": "article",
+      "title": "When Machines Meet Each Other: Network Effects and the Strategic Role of History in Multi-Agent {AI}",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.06903",
+      "doi": "",
+      "arxiv_id": "2510.06903",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "When Machines Meet Each Other: Network Effects and the Strategic Role of History in Multi-Agent AI",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.06903"
+      }
+    },
+    "lohn2024requirements": {
+      "key": "lohn2024requirements",
+      "entry_type": "inproceedings",
+      "title": "Is Machine Psychology Here? On Requirements for Using Human Psychological Tests on Large Language Models",
+      "year": "2024",
+      "url": "https://aclanthology.org/2024.inlg-main.19/",
+      "doi": "10.18653/v1/2024.inlg-main.19",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://aclanthology.org/2024.inlg-main.19/"
+      },
+      "doi_check": {
+        "ok": true,
+        "title": "Is Machine Psychology here? On Requirements for Using Human Psychological Tests on Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "lore2024strategic": {
+      "key": "lore2024strategic",
+      "entry_type": "article",
+      "title": "Strategic Behavior of Large Language Models and the Role of Game Structure versus Contextual Framing",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1038/s41598-024-69032-z",
+      "arxiv_id": "2309.05898",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "lu2022fantastically": {
+      "key": "lu2022fantastically",
+      "entry_type": "inproceedings",
+      "title": "Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity",
+      "year": "2022",
+      "url": "https://arxiv.org/abs/2104.08786",
+      "doi": "",
+      "arxiv_id": "2104.08786",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2104.08786"
+      }
+    },
+    "ma2025openended": {
+      "key": "ma2025openended",
+      "entry_type": "article",
+      "title": "Too Open for Opinion? Embracing Open-Endedness in Large Language Models for Social Simulation",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.13884",
+      "doi": "",
+      "arxiv_id": "2510.13884",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Too Open for Opinion? Embracing Open-Endedness in Large Language Models for Social Simulation",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.13884"
+      }
+    },
+    "ma2026stable": {
+      "key": "ma2026stable",
+      "entry_type": "article",
+      "title": "Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.09833",
+      "doi": "",
+      "arxiv_id": "2601.09833",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.09833"
+      }
+    },
+    "mahajan2026mindgap": {
+      "key": "mahajan2026mindgap",
+      "entry_type": "article",
+      "title": "Mind the Gap: How Elicitation Protocols Shape the Stated-Revealed Preference Gap in Language Models",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.21975",
+      "doi": "",
+      "arxiv_id": "2601.21975",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Mind the Gap: How Elicitation Protocols Shape the Stated-Revealed Preference Gap in Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.21975"
+      }
+    },
+    "manning2024automated": {
+      "key": "manning2024automated",
+      "entry_type": "article",
+      "title": "Automated Social Science: Language Models as Scientist and Subjects",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.11794",
+      "doi": "",
+      "arxiv_id": "2404.11794",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.11794"
+      }
+    },
+    "mcilroyyoung2024setbased": {
+      "key": "mcilroyyoung2024setbased",
+      "entry_type": "inproceedings",
+      "title": "Order-Independence Without Fine Tuning",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.06581",
+      "doi": "",
+      "arxiv_id": "2406.06581",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.06581"
+      }
+    },
+    "mei2024behavioral": {
+      "key": "mei2024behavioral",
+      "entry_type": "article",
+      "title": "A Turing Test of Whether {AI} Chatbots Are Behaviorally Similar to Humans",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1073/pnas.2313925121",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "A Turing test of whether AI chatbots are behaviorally similar to humans",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              27
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "messick1995validity": {
+      "key": "messick1995validity",
+      "entry_type": "article",
+      "title": "Validity of Psychological Assessment: Validation of Inferences from Persons' Responses and Performances as Scientific Inquiry into Score Meaning",
+      "year": "1995",
+      "url": "",
+      "doi": "10.1037/0003-066X.50.9.741",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning.",
+        "published": {
+          "date-parts": [
+            [
+              1995,
+              9
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "meyer2026apparent": {
+      "key": "meyer2026apparent",
+      "entry_type": "article",
+      "title": "Apparent Psychological Profiles of Large Language Models Are Largely a Measurement Artifact",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.20205",
+      "doi": "",
+      "arxiv_id": "2606.20205",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.20205"
+      }
+    },
+    "michaelov2025phases": {
+      "key": "michaelov2025phases",
+      "entry_type": "inproceedings",
+      "title": "Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.24963",
+      "doi": "",
+      "arxiv_id": "2510.24963",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.24963"
+      }
+    },
+    "milano2025content": {
+      "key": "milano2025content",
+      "entry_type": "article",
+      "title": "Human Expertise and Large Language Model Embeddings in the Content Validity Assessment of Personality Tests",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1177/00131644251355485",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "mireshghallah2024confaide": {
+      "key": "mireshghallah2024confaide",
+      "entry_type": "inproceedings",
+      "title": "Can {LLMs} Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2310.17884",
+      "doi": "",
+      "arxiv_id": "2310.17884",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.17884"
+      }
+    },
+    "mizrahi2024state": {
+      "key": "mizrahi2024state",
+      "entry_type": "article",
+      "title": "State of What Art? A Call for Multi-Prompt {LLM} Evaluation",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2401.00595",
+      "doi": "",
+      "arxiv_id": "2401.00595",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2401.00595"
+      }
+    },
+    "moore2024valueconsistency": {
+      "key": "moore2024valueconsistency",
+      "entry_type": "inproceedings",
+      "title": "Are Large Language Models Consistent over Value-Laden Questions?",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-emnlp.891",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Are Large Language Models Consistent over Value-laden Questions?",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "motwani2024collusion": {
+      "key": "motwani2024collusion",
+      "entry_type": "article",
+      "title": "Secret Collusion among {AI} Agents: Multi-Agent Deception via Steganography",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.07510",
+      "doi": "",
+      "arxiv_id": "2402.07510",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.07510"
+      }
+    },
+    "mou2024individual": {
+      "key": "mou2024individual",
+      "entry_type": "misc",
+      "title": "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2412.03563",
+      "doi": "",
+      "arxiv_id": "2412.03563",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2412.03563"
+      }
+    },
+    "mu2025rop": {
+      "key": "mu2025rop",
+      "entry_type": "article",
+      "title": "Robustness of Prompting: Enhancing Robustness of Large Language Models Against Prompting Attacks",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.03627",
+      "doi": "",
+      "arxiv_id": "2506.03627",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.03627"
+      }
+    },
+    "mukobi2023welfare": {
+      "key": "mukobi2023welfare",
+      "entry_type": "article",
+      "title": "Welfare Diplomacy: Benchmarking Language Model Cooperation",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.08901",
+      "doi": "",
+      "arxiv_id": "2310.08901",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.08901"
+      }
+    },
+    "mundler2024selfcontradictory": {
+      "key": "mundler2024selfcontradictory",
+      "entry_type": "inproceedings",
+      "title": "Self-Contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2305.15852",
+      "doi": "",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2305.15852"
+      }
+    },
+    "naous2024beer": {
+      "key": "naous2024beer",
+      "entry_type": "inproceedings",
+      "title": "Having Beer after Prayer? Measuring Cultural Bias in Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.862",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Having Beer after Prayer? Measuring Cultural Bias in Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "nash1950equilibrium": {
+      "key": "nash1950equilibrium",
+      "entry_type": "article",
+      "title": "Equilibrium Points in n-Person Games",
+      "year": "1950",
+      "url": "",
+      "doi": "10.1073/pnas.36.1.48",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "needham2025evalaware": {
+      "key": "needham2025evalaware",
+      "entry_type": "article",
+      "title": "Large Language Models Often Know When They Are Being Evaluated",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.23836",
+      "doi": "",
+      "arxiv_id": "2505.23836",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.23836"
+      }
+    },
+    "ngweta2025mof": {
+      "key": "ngweta2025mof",
+      "entry_type": "article",
+      "title": "Towards {LLMs} Robustness to Changes in Prompt Format Styles",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2504.06969",
+      "doi": "",
+      "arxiv_id": "2504.06969",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2504.06969"
+      }
+    },
+    "norman2026reliability": {
+      "key": "norman2026reliability",
+      "entry_type": "misc",
+      "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of {LLM}-as-a-Judge Models Across Agreement, Consistency, and Bias",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.19544",
+      "doi": "",
+      "arxiv_id": "2606.19544",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.19544"
+      }
+    },
+    "nunes2024hypocrites": {
+      "key": "nunes2024hypocrites",
+      "entry_type": "inproceedings",
+      "title": "Are Large Language Models Moral Hypocrites? A Study Based on Moral Foundations",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2405.11100",
+      "doi": "",
+      "arxiv_id": "2405.11100",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2405.11100"
+      }
+    },
+    "okada2026desirability": {
+      "key": "okada2026desirability",
+      "entry_type": "article",
+      "title": "Quantifying and Mitigating Socially Desirable Responding in {LLM}s: A Desirability-Matched Graded Forced-Choice Psychometric Study",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.17262",
+      "doi": "",
+      "arxiv_id": "2602.17262",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2602.17262"
+      }
+    },
+    "oren2024proving": {
+      "key": "oren2024proving",
+      "entry_type": "article",
+      "title": "Proving Test Set Contamination in Black Box Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.17623",
+      "doi": "",
+      "arxiv_id": "2310.17623",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.17623"
+      }
+    },
+    "ouyang2025chatgptnondet": {
+      "key": "ouyang2025chatgptnondet",
+      "entry_type": "article",
+      "title": "An Empirical Study of the Non-determinism of {ChatGPT} in Code Generation",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1145/3697010",
+      "arxiv_id": "2308.02828",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "An Empirical Study of the Non-determinism of ChatGPT in Code Generation",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              28
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "palavalli2024taxonomy": {
+      "key": "palavalli2024taxonomy",
+      "entry_type": "inproceedings",
+      "title": "A Taxonomy for Data Contamination in Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2407.08716",
+      "doi": "",
+      "arxiv_id": "2407.08716",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "A Taxonomy for Data Contamination in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2407.08716"
+      }
+    },
+    "park2023generative": {
+      "key": "park2023generative",
+      "entry_type": "inproceedings",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2304.03442",
+      "doi": "",
+      "arxiv_id": "2304.03442",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2304.03442"
+      }
+    },
+    "park2024selfreports": {
+      "key": "park2024selfreports",
+      "entry_type": "article",
+      "title": "{LLM} Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2411.10109",
+      "doi": "",
+      "arxiv_id": "2411.10109",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2411.10109"
+      }
+    },
+    "pecher2026underspec": {
+      "key": "pecher2026underspec",
+      "entry_type": "misc",
+      "title": "Revisiting Prompt Sensitivity in Large Language Models for Text Classification: The Role of Prompt Underspecification",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.04297",
+      "doi": "",
+      "arxiv_id": "2602.04297",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2602.04297"
+      }
+    },
+    "pechon2026qre": {
+      "key": "pechon2026qre",
+      "entry_type": "misc",
+      "title": "Quantal Response Equilibrium as a Measure of Strategic Sophistication: Theory and Validation for {LLM} Evaluation",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.10029",
+      "doi": "",
+      "arxiv_id": "2603.10029",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Quantal Response Equilibrium as a Measure of Strategic Sophistication: Theory and Validation for LLM Evaluation",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.10029"
+      }
+    },
+    "perez2023modeleval": {
+      "key": "perez2023modeleval",
+      "entry_type": "inproceedings",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.findings-acl.847",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "petrov2024limited": {
+      "key": "petrov2024limited",
+      "entry_type": "article",
+      "title": "Limited Ability of {LLMs} to Simulate Human Psychological Behaviours: A Psychometric Analysis",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2405.07248",
+      "doi": "",
+      "arxiv_id": "2405.07248",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Limited Ability of LLMs to Simulate Human Psychological Behaviours: a Psychometric Analysis",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2405.07248"
+      }
+    },
+    "peysakhovich2023attention": {
+      "key": "peysakhovich2023attention",
+      "entry_type": "article",
+      "title": "Attention Sorting Combats Recency Bias in Long Context Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.01427",
+      "doi": "",
+      "arxiv_id": "2310.01427",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.01427"
+      }
+    },
+    "pezeshkpour2024large": {
+      "key": "pezeshkpour2024large",
+      "entry_type": "inproceedings",
+      "title": "Large Language Models Sensitivity to the Order of Options in Multiple-Choice Questions",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2308.11483",
+      "doi": "",
+      "arxiv_id": "2308.11483",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Large Language Models Sensitivity to The Order of Options in Multiple-Choice Questions",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2308.11483"
+      }
+    },
+    "phuong2025stealth": {
+      "key": "phuong2025stealth",
+      "entry_type": "article",
+      "title": "Evaluating Frontier Models for Stealth and Situational Awareness",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.01420",
+      "doi": "",
+      "arxiv_id": "2505.01420",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Evaluating Frontier Models for Stealth and Situational Awareness",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.01420"
+      }
+    },
+    "piatti2024govsim": {
+      "key": "piatti2024govsim",
+      "entry_type": "inproceedings",
+      "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of {LLM} Agents",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2404.16698",
+      "doi": "",
+      "arxiv_id": "2404.16698",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.16698"
+      }
+    },
+    "polo2024efficient": {
+      "key": "polo2024efficient",
+      "entry_type": "inproceedings",
+      "title": "Efficient multi-prompt evaluation of {LLMs}",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2405.17202",
+      "doi": "",
+      "arxiv_id": "2405.17202",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2405.17202"
+      }
+    },
+    "qin2024pairwise": {
+      "key": "qin2024pairwise",
+      "entry_type": "inproceedings",
+      "title": "Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-naacl.97",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "qwang2025reliable": {
+      "key": "qwang2025reliable",
+      "entry_type": "misc",
+      "title": "{LLM}-based Human Simulations Have Not Yet Been Reliable",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.08579",
+      "doi": "",
+      "arxiv_id": "2501.08579",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2501.08579"
+      }
+    },
+    "rabinovich2023semconsistency": {
+      "key": "rabinovich2023semconsistency",
+      "entry_type": "inproceedings",
+      "title": "Predicting Question-Answering Performance of Large Language Models through Semantic Consistency",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.01152",
+      "doi": "",
+      "arxiv_id": "2311.01152",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Predicting Question-Answering Performance of Large Language Models through Semantic Consistency",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.01152"
+      }
+    },
+    "rahwan2019machine": {
+      "key": "rahwan2019machine",
+      "entry_type": "article",
+      "title": "Machine Behaviour",
+      "year": "2019",
+      "url": "",
+      "doi": "10.1038/s41586-019-1138-y",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "raj2025chainguidance": {
+      "key": "raj2025chainguidance",
+      "entry_type": "article",
+      "title": "Improving Consistency in Large Language Models through Chain of Guidance",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.15924",
+      "doi": "",
+      "arxiv_id": "2502.15924",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.15924"
+      }
+    },
+    "razavi2025promptset": {
+      "key": "razavi2025promptset",
+      "entry_type": "article",
+      "title": "Benchmarking Prompt Sensitivity in Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.06065",
+      "doi": "",
+      "arxiv_id": "2502.06065",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Benchmarking Prompt Sensitivity in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.06065"
+      }
+    },
+    "reif2024labelbias": {
+      "key": "reif2024labelbias",
+      "entry_type": "inproceedings",
+      "title": "Beyond Performance: Quantifying and Mitigating Label Bias in {LLMs}",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.naacl-long.378",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Beyond Performance: Quantifying and Mitigating Label Bias in LLMs",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "ren2024emergence": {
+      "key": "ren2024emergence",
+      "entry_type": "inproceedings",
+      "title": "Emergence of Social Norms in Generative Agent Societies: Principles and Architecture",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2403.08251",
+      "doi": "",
+      "arxiv_id": "2403.08251",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2403.08251"
+      }
+    },
+    "ren2024selfcalibrated": {
+      "key": "ren2024selfcalibrated",
+      "entry_type": "article",
+      "title": "Self-Calibrated Listwise Reranking with Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2411.04602",
+      "doi": "",
+      "arxiv_id": "2411.04602",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Self-Calibrated Listwise Reranking with Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2411.04602"
+      }
+    },
+    "robinson2023mcsb": {
+      "key": "robinson2023mcsb",
+      "entry_type": "inproceedings",
+      "title": "Leveraging Large Language Models for Multiple Choice Question Answering",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2210.12353",
+      "doi": "",
+      "arxiv_id": "2210.12353",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Leveraging Large Language Models for Multiple Choice Question Answering",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2210.12353"
+      }
+    },
+    "robinson2025framing": {
+      "key": "robinson2025framing",
+      "entry_type": "article",
+      "title": "Framing the Game: How Context Shapes {LLM} Decision-Making",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2503.04840",
+      "doi": "",
+      "arxiv_id": "2503.04840",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2503.04840"
+      }
+    },
+    "rodriguez2021irt": {
+      "key": "rodriguez2021irt",
+      "entry_type": "inproceedings",
+      "title": "Evaluation Examples are not Equally Informative: How should that change {NLP} Leaderboards?",
+      "year": "2021",
+      "url": "https://aclanthology.org/2021.acl-long.346/",
+      "doi": "",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://aclanthology.org/2021.acl-long.346/"
+      }
+    },
+    "romanou2026brittlebench": {
+      "key": "romanou2026brittlebench",
+      "entry_type": "article",
+      "title": "{Brittlebench}: Quantifying {LLM} Robustness via Prompt Sensitivity",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.13285",
+      "doi": "",
+      "arxiv_id": "2603.13285",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.13285"
+      }
+    },
+    "rosenfeld2025questioning": {
+      "key": "rosenfeld2025questioning",
+      "entry_type": "article",
+      "title": "Questioning the Stability of Visual Question Answering",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2511.11206",
+      "doi": "",
+      "arxiv_id": "2511.11206",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2511.11206"
+      }
+    },
+    "rottger2024political": {
+      "key": "rottger2024political",
+      "entry_type": "inproceedings",
+      "title": "Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.16786",
+      "doi": "",
+      "arxiv_id": "2402.16786",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.16786"
+      }
+    },
+    "ryan2024unintended": {
+      "key": "ryan2024unintended",
+      "entry_type": "inproceedings",
+      "title": "Unintended Impacts of {LLM} Alignment on Global Representation",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.853",
+      "arxiv_id": "2402.15018",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "sainz2023nlp": {
+      "key": "sainz2023nlp",
+      "entry_type": "inproceedings",
+      "title": "{NLP} Evaluation in Trouble: On the Need to Measure {LLM} Data Contamination for Each Benchmark",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.findings-emnlp.722",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "salecha2024social": {
+      "key": "salecha2024social",
+      "entry_type": "article",
+      "title": "Large Language Models Show Human-like Social Desirability Biases in Survey Responses",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2405.06058",
+      "doi": "",
+      "arxiv_id": "2405.06058",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Large Language Models Show Human-like Social Desirability Biases in Survey Responses",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2405.06058"
+      }
+    },
+    "salinas2024butterfly": {
+      "key": "salinas2024butterfly",
+      "entry_type": "inproceedings",
+      "title": "The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-acl.275",
+      "arxiv_id": "2401.03729",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "santurkar2023whose": {
+      "key": "santurkar2023whose",
+      "entry_type": "inproceedings",
+      "title": "Whose Opinions Do Language Models Reflect?",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2303.17548",
+      "doi": "",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2303.17548"
+      }
+    },
+    "santy2023nlpositionality": {
+      "key": "santy2023nlpositionality",
+      "entry_type": "inproceedings",
+      "title": "{NLP}ositionality: Characterizing Design Biases of Datasets and Models",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.acl-long.505",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "NLPositionality: Characterizing Design Biases of Datasets and Models",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 0.993
+    },
+    "schaeffer2023mirage": {
+      "key": "schaeffer2023mirage",
+      "entry_type": "inproceedings",
+      "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2304.15004",
+      "doi": "",
+      "arxiv_id": "2304.15004",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2304.15004"
+      }
+    },
+    "scherrer2023evaluating": {
+      "key": "scherrer2023evaluating",
+      "entry_type": "inproceedings",
+      "title": "Evaluating the Moral Beliefs Encoded in {LLMs}",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2307.14324",
+      "doi": "",
+      "arxiv_id": "2307.14324",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2307.14324"
+      }
+    },
+    "sclar2024quantifying": {
+      "key": "sclar2024quantifying",
+      "entry_type": "inproceedings",
+      "title": "Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I Learned to Start Worrying About Prompt Formatting",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2310.11324",
+      "doi": "",
+      "arxiv_id": "2310.11324",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.11324"
+      }
+    },
+    "segura2025opponentshaping": {
+      "key": "segura2025opponentshaping",
+      "entry_type": "article",
+      "title": "Opponent Shaping in {LLM} Agents",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.08255",
+      "doi": "",
+      "arxiv_id": "2510.08255",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Opponent Shaping in LLM Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.08255"
+      }
+    },
+    "seleznyov2025punctuation": {
+      "key": "seleznyov2025punctuation",
+      "entry_type": "article",
+      "title": "When Punctuation Matters: A Large-Scale Comparison of Prompt Robustness Methods for {LLMs}",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2508.11383",
+      "doi": "",
+      "arxiv_id": "2508.11383",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "When Punctuation Matters: A Large-Scale Comparison of Prompt Robustness Methods for LLMs",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2508.11383"
+      }
+    },
+    "serapiogarcia2023personality": {
+      "key": "serapiogarcia2023personality",
+      "entry_type": "article",
+      "title": "Personality Traits in Large Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2307.00184",
+      "doi": "",
+      "arxiv_id": "2307.00184",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2307.00184"
+      }
+    },
+    "seror2024moralmind": {
+      "key": "seror2024moralmind",
+      "entry_type": "article",
+      "title": "The Moral Mind(s) of Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2412.04476",
+      "doi": "",
+      "arxiv_id": "2412.04476",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "The Moral Mind(s) of Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2412.04476"
+      }
+    },
+    "shapira2024clever": {
+      "key": "shapira2024clever",
+      "entry_type": "inproceedings",
+      "title": "Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2305.14763",
+      "doi": "",
+      "arxiv_id": "2305.14763",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2305.14763"
+      }
+    },
+    "sharma2024sycophancy": {
+      "key": "sharma2024sycophancy",
+      "entry_type": "article",
+      "title": "Towards Understanding Sycophancy in Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2310.13548",
+      "doi": "",
+      "arxiv_id": "2310.13548",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Towards Understanding Sycophancy in Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.13548"
+      }
+    },
+    "shi2024mink": {
+      "key": "shi2024mink",
+      "entry_type": "inproceedings",
+      "title": "Detecting Pretraining Data from Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2310.16789",
+      "doi": "",
+      "arxiv_id": "2310.16789",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.16789"
+      }
+    },
+    "shi2025judging": {
+      "key": "shi2025judging",
+      "entry_type": "inproceedings",
+      "title": "Judging the Judges: A Systematic Study of Position Bias in {LLM}-as-a-Judge",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2406.07791",
+      "doi": "",
+      "arxiv_id": "2406.07791",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.07791"
+      }
+    },
+    "shu2024dont": {
+      "key": "shu2024dont",
+      "entry_type": "inproceedings",
+      "title": "You Don't Need a Personality Test to Know These Models Are Unreliable: Assessing the Reliability of Large Language Models on Psychometric Instruments",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2311.09718",
+      "doi": "",
+      "arxiv_id": "2311.09718",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "You don't need a personality test to know these models are unreliable: Assessing the Reliability of Large Language Models on Psychometric Instruments",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.09718"
+      }
+    },
+    "sofroniew2026emotion": {
+      "key": "sofroniew2026emotion",
+      "entry_type": "misc",
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2604.07729",
+      "doi": "",
+      "arxiv_id": "2604.07729",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2604.07729"
+      }
+    },
+    "song2024greedy": {
+      "key": "song2024greedy",
+      "entry_type": "inproceedings",
+      "title": "The Good, the Bad, and the Greedy: Evaluation of {LLMs} Should Not Ignore Non-Determinism",
+      "year": "2025",
+      "url": "",
+      "doi": "10.18653/v1/2025.naacl-long.211",
+      "arxiv_id": "2407.10457",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "The Good, The Bad, and The Greedy: Evaluation of LLMs Should Not Ignore Non-Determinism",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "song2025psychometric": {
+      "key": "song2025psychometric",
+      "entry_type": "article",
+      "title": "Human Psychometric Questionnaires Mischaracterize {LLM} Behavior",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2509.10078",
+      "doi": "",
+      "arxiv_id": "2509.10078",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2509.10078"
+      }
+    },
+    "su2025singlechar": {
+      "key": "su2025singlechar",
+      "entry_type": "misc",
+      "title": "A Single Character can Make or Break Your {LLM} Evals",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.05152",
+      "doi": "",
+      "arxiv_id": "2510.05152",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "A Single Character can Make or Break Your LLM Evals",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.05152"
+      }
+    },
+    "suhr2023challenging": {
+      "key": "suhr2023challenging",
+      "entry_type": "misc",
+      "title": "Challenging the Validity of Personality Tests for Large Language Models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.05297",
+      "doi": "",
+      "arxiv_id": "2311.05297",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.05297"
+      }
+    },
+    "sun2023rankgpt": {
+      "key": "sun2023rankgpt",
+      "entry_type": "inproceedings",
+      "title": "Is {ChatGPT} Good at Search? Investigating Large Language Models as Re-Ranking Agents",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.emnlp-main.923",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "sun2024random": {
+      "key": "sun2024random",
+      "entry_type": "article",
+      "title": "Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.18144",
+      "doi": "",
+      "arxiv_id": "2402.18144",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.18144"
+      }
+    },
+    "sun2025gametheory": {
+      "key": "sun2025gametheory",
+      "entry_type": "inproceedings",
+      "title": "Game Theory Meets Large Language Models: A Systematic Survey",
+      "year": "2025",
+      "url": "",
+      "doi": "10.24963/ijcai.2025/1184",
+      "arxiv_id": "2502.09053",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "Game Theory Meets Large Language Models: A Systematic Survey",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "tak2026sparks": {
+      "key": "tak2026sparks",
+      "entry_type": "article",
+      "title": "Sparks of Rationality: Do Reasoning {LLM}s Align with Human Judgment and Choice?",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2601.22329",
+      "doi": "",
+      "arxiv_id": "2601.22329",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2601.22329"
+      }
+    },
+    "tam2024format": {
+      "key": "tam2024format",
+      "entry_type": "inproceedings",
+      "title": "Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.emnlp-industry.91",
+      "arxiv_id": "2408.02442",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "Let Me Speak Freely? A Study On The Impact Of Format Restrictions On Large Language Model Performance.",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 0.863
+    },
+    "tang2024permutation": {
+      "key": "tang2024permutation",
+      "entry_type": "inproceedings",
+      "title": "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2310.07712",
+      "doi": "",
+      "arxiv_id": "2310.07712",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.07712"
+      }
+    },
+    "tang2025taskcomplexity": {
+      "key": "tang2025taskcomplexity",
+      "entry_type": "article",
+      "title": "On the Importance of Task Complexity in Evaluating {LLM}-Based Multi-Agent Systems",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2510.04311",
+      "doi": "",
+      "arxiv_id": "2510.04311",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2510.04311"
+      }
+    },
+    "tao2024cultural": {
+      "key": "tao2024cultural",
+      "entry_type": "article",
+      "title": "Cultural Bias and Cultural Alignment of Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1093/pnasnexus/pgae346",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Cultural bias and cultural alignment of large language models",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              2
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "taubenfeld2026dispositions": {
+      "key": "taubenfeld2026dispositions",
+      "entry_type": "article",
+      "title": "Evaluating Alignment of Behavioral Dispositions in {LLMs}",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2602.11328",
+      "doi": "",
+      "arxiv_id": "2602.11328",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2602.11328"
+      }
+    },
+    "teo2026levelk": {
+      "key": "teo2026levelk",
+      "entry_type": "article",
+      "title": "{LLM} Agents as Static Level-k Players in Behavioural Games",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.27845",
+      "doi": "",
+      "arxiv_id": "2606.27845",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.27845"
+      }
+    },
+    "tewolde2026coopeval": {
+      "key": "tewolde2026coopeval",
+      "entry_type": "inproceedings",
+      "title": "{CoopEval}: Benchmarking Cooperation-Sustaining Mechanisms and {LLM} Agents in Social Dilemmas",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2604.15267",
+      "doi": "",
+      "arxiv_id": "2604.15267",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "CoopEval: Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2604.15267"
+      }
+    },
+    "tian2023evilgeniuses": {
+      "key": "tian2023evilgeniuses",
+      "entry_type": "article",
+      "title": "Evil Geniuses: Delving into the Safety of {LLM}-based Agents",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2311.11855",
+      "doi": "",
+      "arxiv_id": "2311.11855",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Evil Geniuses: Delving into the Safety of LLM-based Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2311.11855"
+      }
+    },
+    "tian2026promptcollusion": {
+      "key": "tian2026promptcollusion",
+      "entry_type": "article",
+      "title": "Prompt Optimization Enables Stable Algorithmic Collusion in {LLM} Agents",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2604.17774",
+      "doi": "",
+      "arxiv_id": "2604.17774",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Prompt Optimization Enables Stable Algorithmic Collusion in LLM Agents",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2604.17774"
+      }
+    },
+    "tseng2024persona": {
+      "key": "tseng2024persona",
+      "entry_type": "inproceedings",
+      "title": "Two Tales of Persona in {LLMs}: A Survey of Role-Playing and Personalization",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.01171",
+      "doi": "",
+      "arxiv_id": "2406.01171",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.01171"
+      }
+    },
+    "tversky1981framing": {
+      "key": "tversky1981framing",
+      "entry_type": "article",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "year": "1981",
+      "url": "",
+      "doi": "10.1126/science.7455683",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "ullman2023trivial": {
+      "key": "ullman2023trivial",
+      "entry_type": "misc",
+      "title": "Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2302.08399",
+      "doi": "",
+      "arxiv_id": "2302.08399",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2302.08399"
+      }
+    },
+    "uluirmak2026evalsafetygap": {
+      "key": "uluirmak2026evalsafetygap",
+      "entry_type": "article",
+      "title": "{EvalSafetyGap}: A Hybrid Survey and Conceptual Framework for {LLM} Evaluation-Safety Failures",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.30219",
+      "doi": "",
+      "arxiv_id": "2606.30219",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.30219"
+      }
+    },
+    "vanderweij2025sandbagging": {
+      "key": "vanderweij2025sandbagging",
+      "entry_type": "inproceedings",
+      "title": "{AI} Sandbagging: Language Models Can Strategically Underperform on Evaluations",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2406.07358",
+      "doi": "",
+      "arxiv_id": "2406.07358",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.07358"
+      }
+    },
+    "voronov2024format": {
+      "key": "voronov2024format",
+      "entry_type": "inproceedings",
+      "title": "Mind Your Format: Towards Consistent Evaluation of In-Context Learning Improvements",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2401.06766",
+      "doi": "",
+      "arxiv_id": "2401.06766",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Mind Your Format: Towards Consistent Evaluation of In-Context Learning Improvements",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2401.06766"
+      }
+    },
+    "wallach2025position": {
+      "key": "wallach2025position",
+      "entry_type": "inproceedings",
+      "title": "Position: Evaluating Generative {AI} Systems Is a Social Science Measurement Challenge",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2502.00561",
+      "doi": "",
+      "arxiv_id": "2502.00561",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Position: Evaluating Generative AI Systems Is a Social Science Measurement Challenge",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2502.00561"
+      }
+    },
+    "walsh2026convenient": {
+      "key": "walsh2026convenient",
+      "entry_type": "article",
+      "title": "Measuring What Matters, or What Is Convenient? Robustness of {LLM}-Based Scoring Systems to Construct-Irrelevant Factors",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.25674",
+      "doi": "",
+      "arxiv_id": "2603.25674",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Measuring What Matters -- or What's Convenient?: Robustness of LLM-Based Scoring Systems to Construct-Irrelevant Factors",
+      "arxiv_title_similarity": 0.996,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.25674"
+      }
+    },
+    "wang2023primacy": {
+      "key": "wang2023primacy",
+      "entry_type": "inproceedings",
+      "title": "Primacy Effect of {ChatGPT}",
+      "year": "2023",
+      "url": "",
+      "doi": "10.18653/v1/2023.emnlp-main.8",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Primacy Effect of ChatGPT",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "wang2024fair": {
+      "key": "wang2024fair",
+      "entry_type": "inproceedings",
+      "title": "Large Language Models are not Fair Evaluators",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.511",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Large Language Models are not Fair Evaluators",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "wang2024mint": {
+      "key": "wang2024mint",
+      "entry_type": "inproceedings",
+      "title": "{MINT}: Evaluating {LLMs} in Multi-turn Interaction with Tools and Language Feedback",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2309.10691",
+      "doi": "",
+      "arxiv_id": "2309.10691",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.10691"
+      }
+    },
+    "wang2025emulate": {
+      "key": "wang2025emulate",
+      "entry_type": "article",
+      "title": "Evaluating the ability of large language models to emulate personality",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1038/s41598-024-84109-5",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Evaluating the ability of large language models to emulate personality",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "wang2025expecon": {
+      "key": "wang2025expecon",
+      "entry_type": "article",
+      "title": "When Experimental Economics Meets Large Language Models: Evidence-based Tactics",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.21371",
+      "doi": "",
+      "arxiv_id": "2505.21371",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.21371"
+      }
+    },
+    "wang2025misportray": {
+      "key": "wang2025misportray",
+      "entry_type": "article",
+      "title": "Large Language Models That Replace Human Participants Can Harmfully Misportray and Flatten Identity Groups",
+      "year": "2025",
+      "url": "",
+      "doi": "10.1038/s42256-025-00986-z",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Large language models that replace human participants can harmfully misportray and flatten identity groups",
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              17
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "wang2026framing": {
+      "key": "wang2026framing",
+      "entry_type": "article",
+      "title": "Framing Effects in Independent-Agent Large Language Models: A Cross-Family Behavioral Analysis",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.19282",
+      "doi": "",
+      "arxiv_id": "2603.19282",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Framing Effects in Independent-Agent Large Language Models: A Cross-Family Behavioral Analysis",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.19282"
+      }
+    },
+    "wanglei2024autonomous": {
+      "key": "wanglei2024autonomous",
+      "entry_type": "article",
+      "title": "A Survey on Large Language Model Based Autonomous Agents",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2308.11432",
+      "doi": "",
+      "arxiv_id": "2308.11432",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2308.11432"
+      }
+    },
+    "wei2023sycophancy": {
+      "key": "wei2023sycophancy",
+      "entry_type": "article",
+      "title": "Simple synthetic data reduces sycophancy in large language models",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2308.03958",
+      "doi": "",
+      "arxiv_id": "2308.03958",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2308.03958"
+      }
+    },
+    "wei2024unveiling": {
+      "key": "wei2024unveiling",
+      "entry_type": "inproceedings",
+      "title": "Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-acl.333",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "wen2025garp": {
+      "key": "wen2025garp",
+      "entry_type": "article",
+      "title": "Economic Rationality under Specialization: Evidence of Decision Bias in {AI} Agents",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.18190",
+      "doi": "",
+      "arxiv_id": "2501.18190",
+      "source_status": "pdf-only-from-arxiv",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2501.18190"
+      }
+    },
+    "xi2023rise": {
+      "key": "xi2023rise",
+      "entry_type": "article",
+      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2309.07864",
+      "doi": "",
+      "arxiv_id": "2309.07864",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.07864"
+      }
+    },
+    "xiao2023metriceval": {
+      "key": "xiao2023metriceval",
+      "entry_type": "inproceedings",
+      "title": "Evaluating Evaluation Metrics: A Framework for Analyzing {NLG} Evaluation Metrics using Measurement Theory",
+      "year": "2023",
+      "url": "https://aclanthology.org/2023.emnlp-main.676/",
+      "doi": "10.18653/v1/2023.emnlp-main.676",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://aclanthology.org/2023.emnlp-main.676/"
+      },
+      "doi_check": {
+        "ok": true,
+        "title": "Evaluating Evaluation Metrics: A Framework for Analyzing NLG Evaluation Metrics using Measurement Theory",
+        "published": {
+          "date-parts": [
+            [
+              2023
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "xie2024trust": {
+      "key": "xie2024trust",
+      "entry_type": "inproceedings",
+      "title": "Can Large Language Model Agents Simulate Human Trust Behavior?",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2402.04559",
+      "doi": "",
+      "arxiv_id": "2402.04559",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.04559"
+      }
+    },
+    "xu2023werewolf": {
+      "key": "xu2023werewolf",
+      "entry_type": "misc",
+      "title": "Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2309.04658",
+      "doi": "",
+      "arxiv_id": "2309.04658",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.04658"
+      }
+    },
+    "xu2024earthflat": {
+      "key": "xu2024earthflat",
+      "entry_type": "inproceedings",
+      "title": "The Earth is Flat because...: Investigating {LLMs}' Belief towards Misinformation via Persuasive Conversation",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.858",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "The Earth is Flat because...: Investigating LLMs’ Belief towards Misinformation via Persuasive Conversation",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "yamin2026revealed": {
+      "key": "yamin2026revealed",
+      "entry_type": "article",
+      "title": "Can Revealed Preferences Clarify {LLM} Alignment and Steering?",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2605.08556",
+      "doi": "",
+      "arxiv_id": "2605.08556",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Can Revealed Preferences Clarify LLM Alignment and Steering?",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2605.08556"
+      }
+    },
+    "yan2024hqm": {
+      "key": "yan2024hqm",
+      "entry_type": "misc",
+      "title": "Measuring the Measurers: Quality Evaluation of Hallucination Benchmarks for Large Vision-Language Models",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.17115",
+      "doi": "",
+      "arxiv_id": "2406.17115",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.17115"
+      }
+    },
+    "yao2024taubench": {
+      "key": "yao2024taubench",
+      "entry_type": "article",
+      "title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2406.12045",
+      "doi": "",
+      "arxiv_id": "2406.12045",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2406.12045"
+      }
+    },
+    "ye2024justice": {
+      "key": "ye2024justice",
+      "entry_type": "inproceedings",
+      "title": "Justice or Prejudice? Quantifying Biases in {LLM-as-a-Judge}",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2410.02736",
+      "doi": "",
+      "arxiv_id": "2410.02736",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2410.02736"
+      }
+    },
+    "ye2024pac": {
+      "key": "ye2024pac",
+      "entry_type": "inproceedings",
+      "title": "Data Contamination Calibration for Black-box {LLMs}",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-acl.644",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Data Contamination Calibration for Black-box LLMs",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "ye2025psychometrics": {
+      "key": "ye2025psychometrics",
+      "entry_type": "misc",
+      "title": "Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2505.08245",
+      "doi": "",
+      "arxiv_id": "2505.08245",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.08245"
+      }
+    },
+    "yehudai2025evaluation": {
+      "key": "yehudai2025evaluation",
+      "entry_type": "inproceedings",
+      "title": "Survey on Evaluation of {LLM}-based Agents",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2503.16416",
+      "doi": "",
+      "arxiv_id": "2503.16416",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2503.16416"
+      }
+    },
+    "yuan2025numerical": {
+      "key": "yuan2025numerical",
+      "entry_type": "article",
+      "title": "Understanding and Mitigating Numerical Sources of Nondeterminism in {LLM} Inference",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2506.09501",
+      "doi": "",
+      "arxiv_id": "2506.09501",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2506.09501"
+      }
+    },
+    "zeinfeld2026dif": {
+      "key": "zeinfeld2026dif",
+      "entry_type": "article",
+      "title": "Assessment Design in the {AI} Era: A Method for Identifying Items Functioning Differentially for Humans and Chatbots",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.23682",
+      "doi": "",
+      "arxiv_id": "2603.23682",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.23682"
+      }
+    },
+    "zhang2024collab": {
+      "key": "zhang2024collab",
+      "entry_type": "inproceedings",
+      "title": "Exploring Collaboration Mechanisms for {LLM} Agents: A Social Psychology View",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.acl-long.782",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "zhang2024klevel": {
+      "key": "zhang2024klevel",
+      "entry_type": "inproceedings",
+      "title": "K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2402.01521",
+      "doi": "",
+      "arxiv_id": "2402.01521",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2402.01521"
+      }
+    },
+    "zhang2024pacost": {
+      "key": "zhang2024pacost",
+      "entry_type": "inproceedings",
+      "title": "{PaCoST}: Paired Confidence Significance Testing for Benchmark Contamination Detection in Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-emnlp.97",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "zhang2025minkpp": {
+      "key": "zhang2025minkpp",
+      "entry_type": "inproceedings",
+      "title": "Min-K\\%++: Improved Baseline for Detecting Pre-Training Data from Large Language Models",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2404.02936",
+      "doi": "",
+      "arxiv_id": "2404.02936",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2404.02936"
+      }
+    },
+    "zhao2021calibrate": {
+      "key": "zhao2021calibrate",
+      "entry_type": "inproceedings",
+      "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "year": "2021",
+      "url": "https://arxiv.org/abs/2102.09690",
+      "doi": "",
+      "arxiv_id": "2102.09690",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2102.09690"
+      }
+    },
+    "zheng2024selectors": {
+      "key": "zheng2024selectors",
+      "entry_type": "inproceedings",
+      "title": "Large Language Models Are Not Robust Multiple Choice Selectors",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2309.03882",
+      "doi": "",
+      "arxiv_id": "2309.03882",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.03882"
+      }
+    },
+    "zhengmt2023judging": {
+      "key": "zhengmt2023judging",
+      "entry_type": "inproceedings",
+      "title": "Judging {LLM}-as-a-Judge with {MT}-Bench and Chatbot Arena",
+      "year": "2023",
+      "url": "https://arxiv.org/abs/2306.05685",
+      "doi": "",
+      "arxiv_id": "2306.05685",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2306.05685"
+      }
+    },
+    "zhou2024batchcal": {
+      "key": "zhou2024batchcal",
+      "entry_type": "inproceedings",
+      "title": "Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2309.17249",
+      "doi": "",
+      "arxiv_id": "2309.17249",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "Batch Calibration: Rethinking Calibration for In-Context Learning and Prompt Engineering",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2309.17249"
+      }
+    },
+    "zhou2024paraphrase": {
+      "key": "zhou2024paraphrase",
+      "entry_type": "inproceedings",
+      "title": "Paraphrase and Solve: Exploring and Exploiting the Impact of Surface Form on Mathematical Reasoning in Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.naacl-long.153",
+      "arxiv_id": "2404.11500",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "Paraphrase and Solve: Exploring and Exploiting the Impact of Surface Form on Mathematical Reasoning in Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "zhou2024sotopia": {
+      "key": "zhou2024sotopia",
+      "entry_type": "inproceedings",
+      "title": "{SOTOPIA}: Interactive Evaluation for Social Intelligence in Language Agents",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2310.11667",
+      "doi": "",
+      "arxiv_id": "2310.11667",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2310.11667"
+      }
+    },
+    "zhou2025lost": {
+      "key": "zhou2025lost",
+      "entry_type": "inproceedings",
+      "title": "Lost in Benchmarks? Rethinking Large Language Model Benchmarking with Item Response Theory",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2505.15055",
+      "doi": "",
+      "arxiv_id": "2505.15055",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2505.15055"
+      }
+    },
+    "zhou2026incentives": {
+      "key": "zhou2026incentives",
+      "entry_type": "article",
+      "title": "When Preferences Fail to Become Incentives: A Utility-Behavior Gap in Large Language Models",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2606.22974",
+      "doi": "",
+      "arxiv_id": "2606.22974",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "When Preferences Fail to Become Incentives: A Utility-Behavior Gap in Large Language Models",
+      "arxiv_title_similarity": 1.0,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2606.22974"
+      }
+    },
+    "zhou2026judgebias": {
+      "key": "zhou2026judgebias",
+      "entry_type": "misc",
+      "title": "Toward Robust {LLM}-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2603.08091",
+      "doi": "",
+      "arxiv_id": "2603.08091",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2603.08091"
+      }
+    },
+    "zhu2024promptrobust": {
+      "key": "zhu2024promptrobust",
+      "entry_type": "inproceedings",
+      "title": "{PromptRobust}: Towards Evaluating the Robustness of Large Language Models on Adversarial Prompts",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1145/3689217.3690621",
+      "arxiv_id": "2306.04528",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": false,
+        "status": 429
+      }
+    },
+    "zhuang2024setwise": {
+      "key": "zhuang2024setwise",
+      "entry_type": "inproceedings",
+      "title": "A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1145/3626772.3657813",
+      "arxiv_id": null,
+      "source_status": "not-applicable",
+      "doi_check": {
+        "ok": true,
+        "title": "A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              10
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "zhuo2024prosa": {
+      "key": "zhuo2024prosa",
+      "entry_type": "inproceedings",
+      "title": "{ProSA}: Assessing and Understanding the Prompt Sensitivity of {LLMs}",
+      "year": "2024",
+      "url": "",
+      "doi": "10.18653/v1/2024.findings-emnlp.108",
+      "arxiv_id": "2410.12405",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": true,
+      "arxiv_title": "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs",
+      "arxiv_title_similarity": 1.0,
+      "doi_check": {
+        "ok": true,
+        "title": "ProSA: Assessing and Understanding the Prompt Sensitivity of LLMs",
+        "published": {
+          "date-parts": [
+            [
+              2024
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    },
+    "zierahn2026without": {
+      "key": "zierahn2026without",
+      "entry_type": "article",
+      "title": "Personality Without Persons? A Psychometric Critique of Big Five Testing in Large Language Models",
+      "year": "2026",
+      "url": "https://arxiv.org/abs/2607.02325",
+      "doi": "",
+      "arxiv_id": "2607.02325",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2607.02325"
+      }
+    },
+    "zrnic2024active": {
+      "key": "zrnic2024active",
+      "entry_type": "article",
+      "title": "Active Statistical Inference",
+      "year": "2024",
+      "url": "https://arxiv.org/abs/2403.03208",
+      "doi": "",
+      "arxiv_id": "2403.03208",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "url_check": {
+        "ok": true,
+        "status": 200,
+        "final_url": "https://arxiv.org/abs/2403.03208"
+      }
+    },
+    "zrnic2024crossppi": {
+      "key": "zrnic2024crossppi",
+      "entry_type": "article",
+      "title": "Cross-prediction-powered inference",
+      "year": "2024",
+      "url": "",
+      "doi": "10.1073/pnas.2322083121",
+      "arxiv_id": "2309.16598",
+      "source_status": "latex-source",
+      "arxiv_registry_ok": false,
+      "doi_check": {
+        "ok": true,
+        "title": "Cross-prediction-powered inference",
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              9
+            ]
+          ]
+        }
+      },
+      "doi_title_similarity": 1.0
+    }
+  }
+}

@@ -1,0 +1,124 @@
+\documentclass[border=8pt]{standalone}
+\usepackage{newtxtext,newtxmath}
+\usepackage{graphicx,array}
+\usepackage{tikz}
+\usetikzlibrary{positioning,fit,calc,shapes.arrows,shadows,shadows.blur,arrows.meta}
+\definecolor{cardblue}{RGB}{216,229,244}
+\definecolor{cardcream}{RGB}{252,243,207}
+\definecolor{cardpink}{RGB}{246,212,208}
+\definecolor{cardgreen}{RGB}{215,235,211}
+\definecolor{ink}{RGB}{28,28,28}
+\definecolor{notered}{RGB}{161,38,38}
+\definecolor{tind}{RGB}{55,48,163}
+\definecolor{tamb}{RGB}{146,64,14}
+\definecolor{tgrn}{RGB}{4,106,56}
+\definecolor{resred}{RGB}{153,27,27}
+\definecolor{resgrn}{RGB}{21,101,52}
+\begin{document}
+\begin{tikzpicture}[
+  card/.style={draw=ink, line width=2pt, rounded corners=9pt, fill=cardblue,
+               align=center, inner sep=5pt,
+               blur shadow={shadow blur steps=10, shadow xshift=1.8pt,
+               shadow yshift=-3.4pt, shadow blur radius=3.4pt,
+               shadow opacity=38}},
+  tier/.style={card, fill=cardcream, inner xsep=7pt, inner ysep=5pt},
+  lbl/.style={font=\bfseries},
+  flow/.style={-{Triangle[length=3.2mm,width=3mm]}, line width=1.7pt, ink},
+  blockarr/.style={single arrow, draw=ink, line width=1.7pt, fill=white,
+                   minimum height=0.95cm, single arrow head extend=2.2mm,
+                   inner sep=2.5pt},
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% (a)
+\node[card] (llm) at (0,0)
+  {\includegraphics[width=1.5cm]{../icons/hero/assistant.png}\\[1pt]\textbf{LLM}};
+\node[card, right=1.5cm of llm] (probe)
+  {\includegraphics[width=1.5cm]{../icons/hero/dashboard.png}\\[1pt]\textbf{One Probe}\\{\scriptsize(one format, one order)}};
+\node[card, right=1.5cm of probe] (out)
+  {{\fontsize{26}{26}\selectfont\textbf{42}}\\[2pt]\textbf{One Output}};
+\node[card, right=1.5cm of out] (claim)
+  {\includegraphics[width=1.5cm]{../icons/hero/businessman.png}\\[1pt]\textbf{``$M$ has $X$''}};
+\node[card, fill=cardpink, right=1.7cm of claim] (bad)
+  {\includegraphics[width=1.5cm]{../icons/hero/warning-sign.png}\\[1pt]Result:\\\textbf{\textcolor{resred}{Pseudo-finding}}};
+
+\draw[flow] (llm) -- (probe);
+\draw[flow] (probe) -- (out);
+\draw[flow] (out) -- (claim);
+\node[blockarr] at ($(claim.east)!0.5!(bad.west)$) {};
+
+\node[font=\small\bfseries\itshape, text=notered]
+  (note) at ($(probe.south)!0.5!(claim.south)+(0,-0.5)$)
+  {one irrelevant change moves it by 76 points, or flips 82\% of verdicts};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% (b)  horizontal pipeline
+\coordinate (rowB) at (0,-6.55);
+\node[card] (llm2) at (rowB)
+  {\includegraphics[width=1.5cm]{../icons/hero/assistant.png}\\[1pt]\textbf{LLM}};
+
+\node[card, fill=cardcream, right=0.72cm of llm2] (pool)
+  {\includegraphics[width=1.4cm]{../icons/hero/dashboard.png}\\[1pt]\textbf{Probe Pool}\\{\scriptsize formats $\cdot$ orders}\\{\scriptsize phrasings $\cdot$ seeds}};
+
+% split card: observed behaviour / the claim (dashed divider)
+\node[card, right=0.72cm of pool, minimum width=2.75cm, minimum height=3.35cm] (behav) {};
+\node[anchor=north, align=center] at ($(behav.north)+(0,-0.16)$)
+  {{\fontsize{15}{15}\selectfont\textbf{42, 47, \ldots}}\\[2pt]{\small\textbf{Behaviour}}};
+\node[anchor=south, align=center] at ($(behav.south)+(0,0.12)$)
+  {\includegraphics[width=0.95cm]{../icons/hero/businessman.png}\\[0pt]{\small\textbf{Claim} ``$M$ has $X$''}};
+\draw[dashed, line width=1pt, ink]
+  ($(behav.west)+(0.14,0.05)$) -- ($(behav.east)+(-0.14,0.05)$);
+
+\draw[flow] (llm2) -- (pool);
+\draw[flow] (pool) -- (behav);
+
+% three audit tiers, icon and text vertically centred (m-columns)
+\node[tier] (t2) at ($(behav.east)+(4.3,0)$)
+  {\begin{tabular}{@{}m{1.25cm}@{\hspace{6pt}}>{\raggedright\arraybackslash}m{3.4cm}@{}}
+   \includegraphics[width=1.25cm]{../icons/hero/research.png} &
+   {\textbf{\textcolor{tamb}{Validity}} {\small(\S4)}\newline
+    {\scriptsize\itshape\color{notered} T3: Clever-Hans $\cdot$ T4: 95$\to$16\%}}
+   \end{tabular}};
+\node[tier, above=0.42cm of t2] (t1)
+  {\begin{tabular}{@{}m{1.25cm}@{\hspace{6pt}}>{\raggedright\arraybackslash}m{3.4cm}@{}}
+   \includegraphics[width=1.25cm]{../icons/hero/compliant.png} &
+   {\textbf{\textcolor{tind}{Reliability}} {\small(\S3)}\newline
+    {\scriptsize\itshape\color{notered} T1: 76-pt swings $\cdot$ T2: 82\% flips}}
+   \end{tabular}};
+\node[tier, below=0.42cm of t2] (t3)
+  {\begin{tabular}{@{}m{1.25cm}@{\hspace{6pt}}>{\raggedright\arraybackslash}m{3.4cm}@{}}
+   \includegraphics[width=1.25cm]{../icons/hero/earth.png} &
+   {\textbf{\textcolor{tgrn}{Generalizability}} {\small(\S5)}\newline
+    {\scriptsize\itshape\color{notered} T5: collapse $\cdot$ T6: memorised}}
+   \end{tabular}};
+
+% bracket from behav to the three tiers
+\coordinate (spine) at ($(behav.east)+(0.38,0)$);
+\draw[line width=1.7pt, ink] (behav.east) -- (spine);
+\draw[line width=1.7pt, ink] (spine|-t1.west) -- (spine|-t3.west);
+\draw[flow] (spine|-t1.west) -- (t1.west);
+\draw[flow] (spine|-t2.west) -- (t2.west);
+\draw[flow] (spine|-t3.west) -- (t3.west);
+
+\node[card, fill=cardgreen, right=1.3cm of t2] (good)
+  {\includegraphics[width=1.5cm]{../icons/hero/quality-control.png}\\[1pt]Result:\\\textbf{\textcolor{resgrn}{Trustworthy}}\\\textbf{\textcolor{resgrn}{Claim}}};
+\node[blockarr] at ($(t2.east)!0.5!(good.west)$) {};
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% equal-width dashed panels
+\coordinate (PL) at (-1.55,0);
+\coordinate (PR) at ($(good.east)+(0.45,0)$);
+
+\coordinate (atopA) at ($(probe.north)+(0,0.72)$);
+\coordinate (abot) at ($(llm.south)+(0,-0.15)$);
+\node[draw=ink, dashed, line width=1.3pt, rounded corners=13pt, inner sep=0pt,
+      fit={(atopA)(note)(PL|-llm.center)(PR|-llm.center)(abot)}] (boxa) {};
+\node[lbl, anchor=north west, font=\bfseries\large]
+  at ($(boxa.north west)+(0.35,-0.18)$) {(a) The single-probe shortcut};
+
+\coordinate (atopB) at ($(t1.north)+(0,0.72)$);
+\coordinate (bbot) at ($(t3.south)+(0,-0.3)$);
+\node[draw=ink, dashed, line width=1.3pt, rounded corners=13pt, inner sep=0pt,
+      fit={(atopB)(PL|-llm2.center)(PR|-llm2.center)(bbot)}] (boxb) {};
+\node[lbl, anchor=north west, font=\bfseries\large]
+  at ($(boxb.north west)+(0.35,-0.18)$) {(b) The three-tier audit (this survey)};
+
+\end{tikzpicture}
+\end{document}

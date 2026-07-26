@@ -1,0 +1,2 @@
+ambiguity,n_models,n_conditions,split_half_sb_median,cross_model_same_probe_rho_median,same_model_different_probe_rho_median,different_model_same_probe_rho_median,first_singular_component_share_median
+high,12,6,0.8924706089458945,0.3008037611041715,0.5573580812572401,0.3008037611041715,0.7006269531400364

@@ -1,0 +1,16 @@
+model,phi_median,phi_mean,spread_median,acc,cells
+google_gemma_7b_it,0.0031,0.0034,0.1761,0.5094,14
+mistralai_mistral_7b_v0_1,0.0012,0.0015,0.117,0.6189,15
+meta_llama_llama_3_8b,0.0008,0.0011,0.1156,0.6573,15
+codellama_codellama_34b_instruct,0.0005,0.0008,0.11,0.5206,15
+meta_llama_llama_3_8b_instruct,0.0003,0.0005,0.092,0.6852,15
+google_gemma_7b,0.0003,0.0003,0.0986,0.6518,14
+mistralai_mistral_7b_instruct_v0_2,0.0003,0.0009,0.1019,0.6204,15
+tiiuae_falcon_40b,0.0003,0.0005,0.1111,0.5628,15
+tiiuae_falcon_180b,0.0002,0.0003,0.07,0.7092,15
+google_flan_t5_xxl,0.0002,0.0003,0.0592,0.5734,14
+mistralai_mixtral_8x7b_instruct_v01,0.0001,0.0003,0.0764,0.7286,15
+meta_llama_llama_3_70b_instruct,0.0001,0.0004,0.0541,0.8166,14
+ibm_mistralai_merlinite_7b,0.0001,0.0005,0.1084,0.6497,14
+google_flan_t5_xl,0.0,0.0008,0.0613,0.5087,15
+google_flan_ul2,0.0,0.0001,0.0554,0.5935,14

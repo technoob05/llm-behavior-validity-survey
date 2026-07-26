@@ -1,0 +1,85 @@
+import fs from "node:fs";
+import path from "node:path";
+
+type Work = {
+  year: string;
+  title: string;
+  url: string;
+  authors: string;
+  key: string;
+};
+
+function works(): Work[] {
+  const source = fs.readFileSync(
+    path.join(process.cwd(), "..", "docs", "surveyed-literature.md"),
+    "utf8",
+  );
+  return source
+    .split(/\r?\n/)
+    .filter((line) => /^\|\s*\d{4}\s*\|/.test(line))
+    .map((line) => {
+      const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
+      const link = cells[1].match(/^\[(.*)\]\((.*)\)$/);
+      return {
+        year: cells[0],
+        title: link?.[1] ?? cells[1],
+        url: link?.[2] ?? "",
+        authors: cells[2],
+        key: cells[3].replaceAll("`", ""),
+      };
+    });
+}
+
+export default function LiteraturePage() {
+  const papers = works();
+  return (
+    <main className="literaturePage">
+      <header className="literatureHero">
+        <div className="wrap">
+          <a className="backLink" href="../">← Project page</a>
+          <p className="eyebrow">Complete evidence catalogue</p>
+          <h1>281 works surveyed by the paper.</h1>
+          <p>
+            This list is generated directly from the manuscript bibliography.
+            Every entry is cited in the paper, and every title links to its
+            preferred public record when one is available.
+          </p>
+        </div>
+      </header>
+      <section className="literatureList wrap">
+        <div className="catalogueMeta">
+          <span>{papers.length} cited works</span>
+          <span>Sorted by year, newest first</span>
+        </div>
+        {papers.map((paper, index) => (
+          <article className="work" key={paper.key}>
+            <span className="workNumber">{String(index + 1).padStart(3, "0")}</span>
+            <div>
+              <div className="workMeta">
+                <span>{paper.year}</span>
+                <code>{paper.key}</code>
+              </div>
+              <h2>
+                {paper.url ? (
+                  <a href={paper.url} target="_blank" rel="noreferrer">
+                    {paper.title}
+                  </a>
+                ) : paper.title}
+              </h2>
+              <p>{paper.authors}</p>
+            </div>
+          </article>
+        ))}
+      </section>
+      <footer>
+        <div className="wrap footerInner">
+          <div>
+            <span className="brandMark">φ</span>
+            <p>LLM Behavior Validity Survey</p>
+          </div>
+          <div><a href="../">Project page</a><a href="../paper.pdf">Paper</a></div>
+        </div>
+      </footer>
+    </main>
+  );
+}

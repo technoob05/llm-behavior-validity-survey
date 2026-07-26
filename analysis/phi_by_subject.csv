@@ -1,0 +1,17 @@
+subject,phi_median,cells
+jurisprudence,0.0015,7
+management,0.0011,15
+college_biology,0.0007,15
+medical_genetics,0.0005,15
+college_chemistry,0.0005,15
+college_computer_science,0.0004,2
+moral_disputes,0.0003,15
+miscellaneous,0.0003,15
+abstract_algebra,0.0002,15
+clinical_knowledge,0.0002,15
+business_ethics,0.0002,15
+logical_fallacies,0.0002,15
+machine_learning,0.0001,15
+anatomy,0.0001,15
+marketing,0.0001,15
+astronomy,0.0,15

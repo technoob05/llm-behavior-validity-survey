@@ -1,0 +1,80 @@
+# --- LaTeX build artefacts ---
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bcf
+*.nav
+*.snm
+*.vrb
+*.brf
+*.idx
+*.ilg
+*.ind
+
+# keep the two built PDFs we actually ship, ignore stray build copies
+latex/*.log
+latex/_pipe.txt
+
+# --- node / tooling ---
+node_modules/
+package-lock.json
+__pycache__/
+*.py[cod]
+website/.next/
+website/out/
+!website/package-lock.json
+
+# --- third-party paper sources downloaded only for verification ---
+# these are other authors' files; we keep our verification *reports*, not their sources
+references/
+verify/
+
+# --- OS noise ---
+Thumbs.db
+desktop.ini
+.DS_Store
+latex/*.bak
+
+# --- downloaded extension datasets and generated execution pools ---
+datasets/
+experiments/prepared/
+analysis/moralchoice/
+analysis/prompteval/
+analysis/mtbench/
+artifact/builds/
+
+# --- local clones and rendered inspection previews ---
+external_sources/
+latex/.tmp_*/
+tmp/pdfs/
+
+# --- generated review renders; retain review reports, not page-image caches ---
+internal/reviews/simulations/.pages/
+internal/reviews/simulations/r1_pages/
+internal/reviews/simulations/r2_render/
+
+# --- generated arXiv staging directory and upload archive ---
+arxiv/build/
+arxiv/dist/
+arxiv/verify/
+
+# --- generated ARR staging directories and upload archives ---
+arr/build/
+arr/dist/
+errors-latex/
+
+# --- private workspace content, never publish ---
+internal/
+ARR_SUBMISSION_GUIDE.md
+PUBLIC_RELEASE_CHECKLIST.md
+AGENTS.md
+.codex/

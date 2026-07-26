@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "Can We Believe What Large Language Models Do? A Survey of Validity Threats in Behavioral Studies"
+type: software
+authors:
+  - family-names: "Dao Sy"
+    given-names: "Duy Minh"
+  - family-names: "Huynh"
+    given-names: "Trung Kiet"
+  - family-names: "Tran"
+    given-names: "Chi-Nguyen"
+  - family-names: "Nguyen"
+    given-names: "Lam Phu Quy"
+  - family-names: "Pham"
+    given-names: "Phu-Hoa"
+license: MIT
+repository-code: "https://github.com/technoob05/llm-behavior-validity-survey"
+abstract: "Reproducible analyses and audit tools for validity threats in behavioral studies of large language models."
+preferred-citation:
+  type: article
+  title: "Can We Believe What Large Language Models Do? A Survey of Validity Threats in Behavioral Studies"
+  authors:
+    - family-names: "Dao Sy"
+      given-names: "Duy Minh"
+    - family-names: "Huynh"
+      given-names: "Trung Kiet"
+    - family-names: "Tran"
+      given-names: "Chi-Nguyen"
+    - family-names: "Nguyen"
+      given-names: "Lam Phu Quy"
+    - family-names: "Pham"
+      given-names: "Phu-Hoa"
+  year: 2026

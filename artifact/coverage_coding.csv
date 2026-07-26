@@ -1,0 +1,31 @@
+subfield,threat,status,representative_evidence,scope_note
+machine_psychology_psychometrics,T1,direct,"gupta2024self;shu2024dont;ma2026stable",Equivalent prompts and minor phrasing are manipulated on psychometric instruments.
+machine_psychology_psychometrics,T2,direct,"dominguez2024questioning;braun2025acquiescence",Response or option order is manipulated on survey-style tasks.
+machine_psychology_psychometrics,T3,direct,"meyer2026apparent;zierahn2026without;wang2025emulate",Response style and factor structure are tested directly.
+machine_psychology_psychometrics,T4,partial,"ye2025psychometrics;lin2026validity",Scoring-target evidence is adjacent rather than a controlled re-score.
+machine_psychology_psychometrics,T5,partial,"fang2024patch;petrov2024limited",Human-population comparison is tested but target coverage is narrow.
+machine_psychology_psychometrics,T6,direct,"song2025psychometric;jung2025psychometric",Questionnaire scores are tested against open-ended behaviour.
+opinion_cultural_simulation,T1,direct,"beck2024sensitivity;hucollier2024persona",Persona and wording variants are manipulated.
+opinion_cultural_simulation,T2,direct,"dominguez2024questioning",Option-order effects are directly removed and measured.
+opinion_cultural_simulation,T3,direct,"wang2025misportray;mei2024behavioral",Representation shape and interpretation are directly compared.
+opinion_cultural_simulation,T4,partial,"huynh2026disca",Controlled alternative scoring is limited.
+opinion_cultural_simulation,T5,direct,"santurkar2023whose;alkhamissi2024investigating;atari2023which",Population and subgroup correspondence are evaluated directly.
+opinion_cultural_simulation,T6,partial,"cui2024replace;li2025silicon",Transfer is studied through selected replications.
+strategic_economic_games,T1,direct,"lore2024strategic;huynh2026payoff",Framing and prompt language are manipulated.
+strategic_economic_games,T2,partial,"guo2024serial",Order checks are narrow.
+strategic_economic_games,T3,partial,"mahajan2026mindgap;gu2025revealed",Construct interpretation is not validated end to end.
+strategic_economic_games,T4,direct,"lore2024strategic;duan2024gtbench;wen2025garp",Game structure and scoring targets are varied or compared.
+strategic_economic_games,T5,partial,"mei2024behavioral;fontana2025nicer",Human comparison exists but population coverage is limited.
+strategic_economic_games,T6,partial,"tewolde2026coopeval",Payoff rewrites and unfamiliar games provide partial transfer tests.
+multi_agent_societies,T1,partial,"bianchi2024negotiation;chen2024llmcalls",Prompt sensitivity is not systematically crossed.
+multi_agent_societies,T2,direct,"guo2024serial",Agent or message order is directly manipulated.
+multi_agent_societies,T3,partial,"cemri2025mast",Failure taxonomies expose ambiguity without full validation.
+multi_agent_societies,T4,partial,"du2023debate;zhang2024collab",Normative targets remain task-specific.
+multi_agent_societies,T5,partial,"ashery2025emergent;ren2024emergence",Population patterns are demonstrated in selected societies.
+multi_agent_societies,T6,partial,"piatti2024govsim;fu2026moreagents;tang2025taskcomplexity",Interaction transfer is tested in limited environments.
+language_model_as_judge,T1,direct,"bellibatlu2026judgesense;norman2026reliability",Protocol and repeated-run sensitivity are measured.
+language_model_as_judge,T2,direct,"wang2024fair;shi2025judging;li2025calibraeval",Candidate order is directly swapped.
+language_model_as_judge,T3,direct,"zhengmt2023judging;hullman2025human",Judge-human agreement and construct mismatch are evaluated.
+language_model_as_judge,T4,partial,"angelopoulos2023ppi;landesberg2025causaljudge",Controlled multi-target re-scoring is limited.
+language_model_as_judge,T5,partial,"fu2025reliable;dogruoz2026challenges",Cross-language and subgroup evidence is incomplete.
+language_model_as_judge,T6,partial,"dorner2025limits;mireshghallah2024confaide",Deployment transfer is studied indirectly.
