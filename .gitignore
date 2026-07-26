@@ -31,6 +31,7 @@ __pycache__/
 *.py[cod]
 website/.next/
 website/out/
+website/dist/
 !website/package-lock.json
 
 # --- third-party paper sources downloaded only for verification ---
