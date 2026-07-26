@@ -47,6 +47,8 @@ img { display: block; max-width: 100%; }
   box-shadow: var(--shadow);
 }
 .skipLink:focus { transform: translateY(0); }
+.skipTarget { scroll-margin-top: 1rem; outline: 0; }
+.skipTarget:focus-visible { outline: 3px solid var(--teal); outline-offset: 6px; }
 svg {
   width: 1.15rem;
   height: 1.15rem;

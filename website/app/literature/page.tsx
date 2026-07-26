@@ -17,6 +17,13 @@ export const metadata: Metadata = {
       "A searchable catalogue generated directly from the manuscript bibliography.",
     url: "https://technoob05.github.io/llm-behavior-validity-survey/literature/",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "281 Works Cited by the LLM Behavior Validity Survey",
+    description:
+      "Search and filter the cited literature behind the survey.",
+    images: ["hero.png"],
+  },
 };
 
 function works(): Work[] {
@@ -44,7 +51,7 @@ export default function LiteraturePage() {
   const papers = works();
   return (
     <main className="literaturePage" id="main-content">
-      <a className="skipLink" href="#main-content">Skip to main content</a>
+      <a className="skipLink" href="#catalogue">Skip to cited literature</a>
       <header className="literatureHero">
         <div className="wrap">
           <a className="backLink" href="../">← Project page</a>
@@ -57,7 +64,11 @@ export default function LiteraturePage() {
           </p>
         </div>
       </header>
-      <section className="literatureList wrap">
+      <section
+        className="literatureList wrap skipTarget"
+        id="catalogue"
+        tabIndex={-1}
+      >
         <LiteratureExplorer papers={papers} />
       </section>
       <footer>
