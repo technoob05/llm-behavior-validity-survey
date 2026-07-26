@@ -1,6 +1,6 @@
 """
-Two analyses the Round-7 reviewers asked for, both on the crossed MoralChoice
-design (high-ambiguity / genuine dilemmas, 12 models):
+Two analyses on the crossed MoralChoice design
+(high-ambiguity / genuine dilemmas, 12 models):
 
 A4  phi BEFORE vs AFTER a mitigation.
     A mitigation collapses one probe factor by averaging over it, so the probe

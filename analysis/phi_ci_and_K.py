@@ -3,8 +3,6 @@
     normal approximation used in the inversion-risk derivation.
 (b) A practical K-selection table: given an estimated phi and a target
     inversion risk, how many probe variants does a study need?
-
-Both were asked for by all three Round-5 reviews.
 """
 from pathlib import Path
 from itertools import combinations

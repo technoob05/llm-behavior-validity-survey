@@ -1,8 +1,8 @@
 """
 Anchoring the phi threshold in a decision-theoretic outcome.
 
-Reviewers objected that "phi >= 0.5 is too fragile" is intuitive but ad hoc.
-We anchor it in the outcome a reader actually cares about: the probability that
+An uncalibrated rule such as "phi >= 0.5 is too fragile" is intuitive but ad
+hoc. We instead anchor it in the outcome a reader actually cares about: the probability that
 a single-probe measurement REVERSES the true ordering of two models (a false
 dispositional conclusion of the form "M1 is more X than M2").
 

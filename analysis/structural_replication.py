@@ -2,11 +2,10 @@
 Worked structural-replication test (condition (iii) of the model-native
 construct criterion, Appendix H), run on MoralChoice.
 
-Four reviews asked for a latent-structure / factor-analytic demonstration rather
-than an advocacy of one. The question a structural test answers is NOT "does the
-model score high on X" but "does the pattern of dependencies among items look
-the same when the probe changes". A genuine construct predicts a stable
-structure; a shortcut or a presentation prior does not.
+The question a structural test answers is NOT "does the model score high on X"
+but "does the pattern of dependencies among items look the same when the probe
+changes". A genuine construct predicts a stable structure; a shortcut or a
+presentation prior does not.
 
 Design. For each model we build the scenario x probe-condition matrix of
 P(action1). We then ask three things.
