@@ -3,7 +3,7 @@ const repository = "llm-behavior-validity-survey";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: isGitHubPages ? "export" : undefined,
   trailingSlash: true,
   images: { unoptimized: true },
   basePath: isGitHubPages ? `/${repository}` : "",
