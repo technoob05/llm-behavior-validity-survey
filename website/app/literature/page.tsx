@@ -11,7 +11,7 @@ type Work = {
 
 function works(): Work[] {
   const source = fs.readFileSync(
-    path.join(process.cwd(), "..", "docs", "surveyed-literature.md"),
+    path.join(process.cwd(), "data", "surveyed-literature.md"),
     "utf8",
   );
   return source
