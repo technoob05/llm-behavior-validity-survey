@@ -1,6 +1,23 @@
 import fs from "node:fs";
 import path from "node:path";
+import type { Metadata } from "next";
 import LiteratureExplorer, { type Work } from "./LiteratureExplorer";
+
+export const metadata: Metadata = {
+  title: "Cited Literature | LLM Behavior Validity Survey",
+  description:
+    "Search and filter the 281 works cited by the survey of validity threats in behavioral studies of large language models.",
+  alternates: {
+    canonical:
+      "https://technoob05.github.io/llm-behavior-validity-survey/literature/",
+  },
+  openGraph: {
+    title: "281 Works Cited by the LLM Behavior Validity Survey",
+    description:
+      "A searchable catalogue generated directly from the manuscript bibliography.",
+    url: "https://technoob05.github.io/llm-behavior-validity-survey/literature/",
+  },
+};
 
 function works(): Work[] {
   const source = fs.readFileSync(
@@ -26,12 +43,13 @@ function works(): Work[] {
 export default function LiteraturePage() {
   const papers = works();
   return (
-    <main className="literaturePage">
+    <main className="literaturePage" id="main-content">
+      <a className="skipLink" href="#main-content">Skip to main content</a>
       <header className="literatureHero">
         <div className="wrap">
           <a className="backLink" href="../">← Project page</a>
-          <p className="eyebrow">Complete evidence catalogue</p>
-          <h1>281 works surveyed by the paper.</h1>
+          <p className="eyebrow">Complete cited-literature catalogue</p>
+          <h1>281 works cited by the paper.</h1>
           <p>
             This list is generated directly from the manuscript bibliography.
             Every entry is cited in the paper, and every title links to its

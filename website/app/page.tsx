@@ -9,33 +9,23 @@ const authors = [
 const domains = [
   {
     number: "01",
-    title: "Psychometrics",
-    text: "Construct validity, response styles, scale reliability, and measurement invariance.",
+    title: "Machine psychology",
+    text: "Personality, values, attitudes, and dispositional claims, audited with psychometric tools.",
   },
   {
     number: "02",
-    title: "Machine psychology",
-    text: "Personality, values, attitudes, and other dispositional claims about models.",
+    title: "Games and agents",
+    text: "Choice, strategic reasoning, cooperation, and payoff-sensitive behavior.",
   },
   {
     number: "03",
-    title: "Preferences and agents",
-    text: "Choice, strategic reasoning, cooperation, games, and payoff-sensitive behavior.",
-  },
-  {
-    number: "04",
     title: "Social simulation",
     text: "Synthetic populations, role-conditioned agents, and model societies.",
   },
   {
-    number: "05",
+    number: "04",
     title: "LLM-as-a-judge",
     text: "Position bias, scorer reliability, calibration, and repeated judgments.",
-  },
-  {
-    number: "06",
-    title: "Benchmarks and transfer",
-    text: "Contamination, multilingual and multimodal validity, and deployment transfer.",
   },
 ];
 
@@ -94,6 +84,13 @@ const bibtex = `@article{daosy2026believe,
   url     = {https://github.com/technoob05/llm-behavior-validity-survey}
 }`;
 
+const figureDimensions: Record<string, { width: number; height: number }> = {
+  "figures/audit-framework.webp": { width: 2200, height: 1238 },
+  "figures/fragility-forest.webp": { width: 1397, height: 768 },
+  "figures/repeated-judges.webp": { width: 2200, height: 1467 },
+  "figures/strict-vs-broad.webp": { width: 2200, height: 1467 },
+};
+
 function Icon({
   name,
 }: {
@@ -138,6 +135,7 @@ function Figure({
   alt: string;
   className?: string;
 }) {
+  const dimensions = figureDimensions[src];
   return (
     <a
       className={`paperFigure ${className}`}
@@ -146,7 +144,13 @@ function Figure({
       rel="noreferrer"
       aria-label={`${alt}. Open full-size figure.`}
     >
-      <img src={src} alt={alt} loading="lazy" />
+      <img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        width={dimensions?.width}
+        height={dimensions?.height}
+      />
       <span>Open full size <Icon name="arrow" /></span>
     </a>
   );
@@ -154,7 +158,8 @@ function Figure({
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
+      <a className="skipLink" href="#main-content">Skip to main content</a>
       <nav className="nav">
         <a className="brand" href="#top" aria-label="Back to top">
           <span className="brandMark">φ</span>
@@ -285,7 +290,7 @@ export default function Home() {
       <section className="coverage wrap" id="coverage">
         <div className="sectionHead">
           <div>
-            <p className="sectionLabel">One inference problem, six literatures</p>
+            <p className="sectionLabel">One inference problem, four behavioral domains</p>
             <h2>The survey connects fields that usually use different language.</h2>
           </div>
           <p>
@@ -438,11 +443,12 @@ export default function Home() {
           <article className="largeFinding">
             <span className="findingKicker">Matched item-level analysis</span>
             <b>≈21×</b>
-            <h3>larger strict φ in the fixed matched analysis</h3>
+            <h3>median gap across matched template draws</h3>
             <p>
-              Mid-difficulty, K=6 item-level strict φ is 0.0069 for the tested
-              MMLU setting and 0.1439 for the tested dilemmas. This is not a
-              general comparison of capability and behavior.
+              Across 200 matched template draws, the median ratio is 20.9, with
+              a central 95% range from 10.9 to 68.6. The fixed illustration gives
+              strict φ=0.0069 for MMLU and φ=0.1439 for the dilemmas. This is not
+              a general comparison of capability and behavior.
             </p>
           </article>
           <div className="smallFindings">
@@ -654,7 +660,7 @@ export default function Home() {
             an experimental design. Each stage has a question, a stress test,
             and a reporting standard.
           </p>
-          <a className="textLink" href="paper.pdf#page=34">
+          <a className="textLink" href="paper.pdf#page=35">
             Open the full checklist in the appendix <Icon name="arrow" />
           </a>
         </div>
@@ -673,9 +679,9 @@ export default function Home() {
             <p className="sectionLabel">The paper in one figure</p>
             <h2>From a single-probe shortcut to an auditable claim.</h2>
             <p>
-              The framework connects psychometrics, machine psychology, agent
-              evaluation, social simulation, and LLM-as-a-judge research through
-              the same inference problem.
+              The framework uses psychometric tools to connect machine psychology,
+              games and agents, social simulation, and LLM-as-a-judge research
+              through the same inference problem.
             </p>
             <a className="textLink" href="paper.pdf">
               Read the complete argument <Icon name="arrow" />
@@ -685,6 +691,8 @@ export default function Home() {
             src="hero.png"
             alt="The paper's claim-centered three-tier audit framework"
             loading="lazy"
+            width="1375"
+            height="852"
           />
         </div>
       </section>
