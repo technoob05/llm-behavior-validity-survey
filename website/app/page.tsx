@@ -159,7 +159,7 @@ function Figure({
 export default function Home() {
   return (
     <main id="main-content">
-      <a className="skipLink" href="#main-content">Skip to main content</a>
+      <a className="skipLink" href="#overview">Skip to main content</a>
       <nav className="nav">
         <a className="brand" href="#top" aria-label="Back to top">
           <span className="brandMark">φ</span>
@@ -235,7 +235,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="statement wrap">
+      <section className="statement wrap skipTarget" id="overview" tabIndex={-1}>
         <p className="sectionLabel">The inference gap</p>
         <h2>A score can be correct while the claim built from it is wrong.</h2>
         <p>
