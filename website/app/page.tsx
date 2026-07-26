@@ -85,10 +85,10 @@ const bibtex = `@article{daosy2026believe,
 }`;
 
 const figureDimensions: Record<string, { width: number; height: number }> = {
-  "figures/audit-framework.webp": { width: 2200, height: 1238 },
-  "figures/fragility-forest.webp": { width: 1397, height: 768 },
-  "figures/repeated-judges.webp": { width: 2200, height: 1467 },
-  "figures/strict-vs-broad.webp": { width: 2200, height: 1467 },
+  "figures/audit-framework.svg": { width: 1672, height: 941 },
+  "figures/fragility-forest.svg": { width: 387, height: 212 },
+  "figures/repeated-judges.svg": { width: 1536, height: 1024 },
+  "figures/strict-vs-broad.svg": { width: 1536, height: 1024 },
 };
 
 function Icon({
@@ -387,7 +387,7 @@ export default function Home() {
           </div>
           <div>
             <Figure
-              src="figures/audit-framework.webp"
+              src="figures/audit-framework.svg"
               alt="Five-stage audit from a behavioral claim to a scoped conclusion"
             />
             <p className="figureCaption">
@@ -476,7 +476,7 @@ export default function Home() {
       <section className="chartSection">
         <div className="wrap chartGrid">
           <Figure
-            src="figures/fragility-forest.webp"
+            src="figures/fragility-forest.svg"
             alt="Model-level fragility estimates and inversion-risk thresholds"
             className="chartFigure"
           />
@@ -541,7 +541,7 @@ export default function Home() {
           </article>
         </div>
         <Figure
-          src="figures/strict-vs-broad.webp"
+          src="figures/strict-vs-broad.svg"
           alt="Conceptual comparison of strict and broad sensitivity"
           className="wideFigure"
         />
@@ -645,7 +645,7 @@ export default function Home() {
             </div>
           </div>
           <Figure
-            src="figures/repeated-judges.webp"
+            src="figures/repeated-judges.svg"
             alt="Why repeated independent judge calls are needed"
           />
         </div>
@@ -688,11 +688,11 @@ export default function Home() {
             </a>
           </div>
           <img
-            src="hero.png"
+            src="hero.svg"
             alt="The paper's claim-centered three-tier audit framework"
             loading="lazy"
-            width="1375"
-            height="852"
+            width="582"
+            height="360"
           />
         </div>
       </section>

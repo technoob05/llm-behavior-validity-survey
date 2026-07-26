@@ -404,7 +404,12 @@ svg {
   background: var(--white);
   box-shadow: var(--shadow);
 }
-.paperFigure img { width: 100%; }
+.paperFigure img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
 .paperFigure > span {
   position: absolute;
   right: 1rem;
@@ -560,7 +565,16 @@ svg {
 .figureSection { padding: 120px 0; background: #e2eeec; }
 .figureWrap { display: grid; grid-template-columns: .65fr 1.35fr; align-items: center; gap: 3rem; }
 .figureWrap p:not(.sectionLabel) { color: var(--muted); }
-.figureWrap img { width: 100%; border: 1px solid rgba(23,50,77,.12); border-radius: 20px; background: var(--white); box-shadow: var(--shadow); }
+.figureWrap img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(23,50,77,.12);
+  border-radius: 20px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
 .resourceGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 3.5rem; }
 .resourceGrid > a {
   display: grid;
