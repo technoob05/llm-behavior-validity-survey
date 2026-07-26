@@ -2,14 +2,15 @@
 
 :root {
   --ink: #172228;
-  --muted: #5f6e73;
+  --muted: #536266;
   --paper: #f8f6f0;
   --white: #ffffff;
   --navy: #17324d;
   --navy-deep: #0d2638;
   --teal: #2f6f6d;
   --teal-soft: #dcebea;
-  --amber: #df8b31;
+  --amber: #a25b18;
+  --amber-bright: #f2b76f;
   --amber-soft: #faead7;
   --sage: #52806b;
   --sage-soft: #dfece3;
@@ -32,6 +33,20 @@ body {
 }
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
+.skipLink {
+  position: fixed;
+  z-index: 100;
+  top: 12px;
+  left: 12px;
+  transform: translateY(-160%);
+  padding: .65rem .9rem;
+  border-radius: 8px;
+  background: var(--white);
+  color: var(--navy);
+  font-weight: 700;
+  box-shadow: var(--shadow);
+}
+.skipLink:focus { transform: translateY(0); }
 svg {
   width: 1.15rem;
   height: 1.15rem;
@@ -50,6 +65,8 @@ svg {
   letter-spacing: .16em;
   text-transform: uppercase;
 }
+.hero .eyebrow, .citation .sectionLabel, .outcomesSection .sectionLabel,
+.literatureHero .eyebrow { color: var(--amber-bright); }
 .figureCaption {
   margin: .75rem .2rem 0;
   color: var(--muted);
@@ -608,9 +625,21 @@ footer { padding: 38px 0; background: var(--navy-deep); color: var(--white); }
 }
 
 @media (max-width: 900px) {
-  .navLinks { display: none; }
+  .navLinks {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: .35rem 0 .8rem;
+    scrollbar-width: none;
+  }
+  .navLinks::-webkit-scrollbar { display: none; }
+  .navLinks a { flex: 0 0 auto; white-space: nowrap; }
   .hero { min-height: auto; }
-  .heroInner { padding-top: 135px; }
+  .heroInner { padding-top: 158px; }
   .claimFlow { grid-template-columns: 1fr; }
   .claimFlow .flowArrow { transform: rotate(90deg); justify-self: center; }
   .numbers { grid-template-columns: 1fr 1fr; gap: 2rem 0; }
@@ -625,8 +654,9 @@ footer { padding: 38px 0; background: var(--navy-deep); color: var(--white); }
 @media (max-width: 620px) {
   .wrap, .nav, .heroInner { width: min(calc(100% - 26px), 1160px); }
   .nav { height: 66px; }
+  .navLinks { top: 58px; gap: 1.15rem; }
   .brand span:last-child { font-size: .84rem; }
-  .heroInner { padding: 108px 0 64px; }
+  .heroInner { padding: 145px 0 64px; }
   .heroTag span:nth-child(2) { display: none; }
   .hero h1 { font-size: clamp(2.8rem, 13vw, 3.45rem); }
   .subtitle { font-size: 1rem; }
