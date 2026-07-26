@@ -5,6 +5,13 @@ export const metadata: Metadata = {
   title: "Can We Believe What Large Language Models Do?",
   description:
     "A survey of validity threats in behavioral studies of large language models.",
+  authors: [
+    { name: "Dao Sy Duy Minh" },
+    { name: "Huynh Trung Kiet" },
+    { name: "Chi-Nguyen Tran" },
+    { name: "Nguyen Lam Phu Quy" },
+    { name: "Phu-Hoa Pham" },
+  ],
   keywords: [
     "large language models",
     "behavioral evaluation",
@@ -18,6 +25,10 @@ export const metadata: Metadata = {
     description:
       "A claim-centered audit of reliability, validity, and generalizability.",
     type: "article",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

@@ -1,13 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-
-type Work = {
-  year: string;
-  title: string;
-  url: string;
-  authors: string;
-  key: string;
-};
+import LiteratureExplorer, { type Work } from "./LiteratureExplorer";
 
 function works(): Work[] {
   const source = fs.readFileSync(
@@ -47,29 +40,7 @@ export default function LiteraturePage() {
         </div>
       </header>
       <section className="literatureList wrap">
-        <div className="catalogueMeta">
-          <span>{papers.length} cited works</span>
-          <span>Sorted by year, newest first</span>
-        </div>
-        {papers.map((paper, index) => (
-          <article className="work" key={paper.key}>
-            <span className="workNumber">{String(index + 1).padStart(3, "0")}</span>
-            <div>
-              <div className="workMeta">
-                <span>{paper.year}</span>
-                <code>{paper.key}</code>
-              </div>
-              <h2>
-                {paper.url ? (
-                  <a href={paper.url} target="_blank" rel="noreferrer">
-                    {paper.title}
-                  </a>
-                ) : paper.title}
-              </h2>
-              <p>{paper.authors}</p>
-            </div>
-          </article>
-        ))}
+        <LiteratureExplorer papers={papers} />
       </section>
       <footer>
         <div className="wrap footerInner">
